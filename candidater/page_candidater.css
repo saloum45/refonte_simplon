@@ -1,0 +1,218 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'nunito';
+}
+body{
+    background-color: rgb(253, 248, 248);
+}
+:root{
+    --color-primaire:#CE0034;
+    --color-secondaire:#ce0034d2;
+}
+.container_candidater {
+    border: 1px solid #000;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.container_candidater .candidater_baniere{
+border: 1px solid red;
+background-image: url('../images_candidater/handicap.avif');
+background-color: #000;
+background-size: cover;
+background-repeat: no-repeat;
+/* filter: blur(2px); */
+height:500px;
+width: 100%;
+text-align: center;
+
+}
+
+.container_candidater .candidater_baniere .candidater_banniere_text{
+    color: rgb(0, 0, 0);
+    margin-top: 15%;
+}
+.container_candidater .candidater_search{
+    /* border: 1px solid blue; */
+    height:70px ;
+    width: 100%;
+    text-align: center;
+    background-color: var(--color-primaire);
+    margin-bottom: 3%;
+
+
+}
+.container_candidater .candidater_search input{
+    height: 80%;
+    width: 40%;
+    margin-top: 0.5%;
+    border-radius: 40px;
+    background: #fff;
+    color: #eee;
+    border: 0;
+
+
+}
+.container_candidater .candidater_search i{
+    color: gray;
+    position: relative;
+    right: 5%;
+   
+
+
+}
+.container_candidater .candidater_search button{
+   background-color: var(--color-primaire);
+   border-radius: 50px;
+   width: 100px;
+   height: 45px;
+   position: relative;
+    right: 7%;
+    color: white;
+    border:  0;
+
+}
+.container_candidater .candidater_search input::placeholder{
+  
+}
+.container_candidater .candidater_categorie {
+  display: flex;
+  grid-template-columns: 1fr 1fr ;
+  /* background-color: #0; */
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  grid-auto-flow: column;
+  gap: 30%
+
+}
+.container_candidater .candidater_categorie .text1{
+    /* background-color: red; */
+    width: 50%;
+    height: auto;
+    font-weight: 700;
+    color: #CE0034;
+    
+
+ 
+}
+.container_candidater .candidater_categorie .candidater_categorie_btn{
+    background-color: var(--color-secondaire);
+    width: 60%;
+    height: 80%;
+    display: flex;
+    margin-right: 2%;
+    gap: 2px;
+    border-radius: 50px;
+    padding: 3px  3px 3px 5px;
+
+}
+.container_candidater .candidater_categorie .candidater_categorie_btn button{
+    width: 20%;
+    height: auto;
+    border-radius: 50px;
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+    margin: 0 auto;
+}
+.container_candidater .candidater_categorie .candidater_categorie_btn button:hover{
+   
+    width: 20%;
+    border-radius: 50px;
+    background-color: white;
+    height: 80%;
+    color: var(--color-primaire);
+    margin-top: 0.5%;
+}
+.container_candidater .candidater_categorie .candidater_categorie_btn button:nth-child(1){
+    width: 20%;
+    border-radius: 50px;
+    background-color: white;
+    height: 80%;
+    color: var(--color-primaire);
+    margin-top: 0.5%;
+}
+/* **************carte******************** */
+.container_candidater .candidater_carte{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin: 2% auto;
+}
+.container_candidater .candidater_carte .card{
+   box-shadow: 2px 2px 4px gray;
+}
+
+.container_candidater .candidater_carte .card-body .inf {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   border-top: 2px solid #000;
+   border-bottom: 2px solid #000;
+   margin-bottom: 10%;
+    width: 100%;
+    height: 35%;
+
+}
+
+.container_candidater .candidater_carte .card-body .inf1 {
+   width: 50%;
+   height: auto;
+   padding: 10px 10px 10px 10px;
+
+}
+.container_candidater .candidater_carte .card-body .inf2 {
+   width: 50%;
+   height: auto;
+   border-left: 2px solid #000;
+   padding: 5px 0 10px 0;
+
+
+}
+
+.container_candidater .candidater_carte .inf .inf2 ul li{
+   /* display: flex; */
+   gap: 5%;
+   font-size: 10px;
+list-style:none ;
+}
+.container_candidater .candidater_carte .card-body .btn3 {
+    padding-bottom: 3%;
+  display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10%;
+
+
+}
+.container_candidater .candidater_carte .card-body .btn3 a {
+background-color: #CE0034;
+border: 0;
+
+}
+.container_candidater .candidater_cours{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr ;
+   margin-left: 23%;
+   margin-top: 4%;
+   background-color: rgb(128, 133, 133);
+
+    width: 60%;
+    /* background-color: #CE0034; */
+    height:100px;
+    text-align: center;
+    padding: 10px 10px;
+}
+.container_candidater .candidater_cours img{
+    margin: auto auto;
+    /* border: 1px solid #000; */
+    height: 80px;
+    width: 80px;
+}
+
+
+
+/* -------------btn categories ******* */
+
+/* <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> */
