@@ -99,3 +99,22 @@ padding-left: 80px;
 
 
 }
+
+/* section temoignage */
+.temoignage{
+  /* background-color: red; */
+  height:auto;
+}
+.temoignage .temoignage-items{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.temoignage .temoignage-items .temoignage-item{
+  /* background-color: green; */
+  width: 58.2%;
+  height: 250px;
+}
+.temoignage .temoignage-item:nth-child(2),.temoignage .temoignage-item:nth-child(3),.temoignage .temoignage-item:nth-child(6){
+  width: 40%;
+}
