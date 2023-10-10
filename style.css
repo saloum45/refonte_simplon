@@ -118,3 +118,40 @@ padding-left: 80px;
 .temoignage .temoignage-item:nth-child(2),.temoignage .temoignage-item:nth-child(3),.temoignage .temoignage-item:nth-child(6){
   width: 40%;
 }
+
+/* section actualite et impact */
+.actualite{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  overflow: auto;
+  background-color: #F3E5E9;
+}
+.actualite .acutalite-item{
+  width: 100%;
+  height: auto;
+}
+.actualite .acutalite-item img{
+  width: 100%;
+  height: 400px;
+}
+
+
+.impact{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 400px;
+  overflow: scroll;
+  background-color: #F3E5E9;
+}
+.impact .impact-item{
+  width: 45%;
+  text-align: center;
+  height: 50%;
+}
+.impact .impact-item span{
+  color: #CE0034;
+  font-size: 20px;
+  font-weight: bold;
+}
