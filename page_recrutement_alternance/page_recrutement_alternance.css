@@ -3,7 +3,9 @@
     padding: 0;
 }
 .Recrutement-alterne .recrutement-banier{
-    background-image: url(image/pédagogie_active.jpg);
-    max-width: 100%;
-    height: 500px;
+    background-image:url(image/pédagogie_active.jpg);
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 600px;
+    background-size: cover;
 }
