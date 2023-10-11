@@ -29,7 +29,6 @@ text-align: center;
     position: relative;
     top: 30%;
     color: white;
-    font-size: ;
 }
 .container_bg_vae .baniere_vae .hover span h1{
    font-weight: 700;
@@ -126,5 +125,23 @@ font-weight: 700;
     background-color: var(--color-primaire);
     font-weight: 700;
     font-size: 18px;
+}
+/* ********************responsive*********************** */
+@media screen and (max-width:767px){
+    .container_bg_vae .baniere_vae{
+        width: 100%;
+    }
+    .container_vae_middle  .vae_middle2{
+        display: flex;
+        flex-direction: column;
+        padding: 2% 10%;
+        
+    }
+    .container_vae_middle  .vae_middle2 .vae_middle2_image img{
+       width: 100%;
+     }
+     .container_bg_vae .baniere_vae .hover span button{
+        width: 20%;
+    }
 }
 /* ***************************vae middle*************************** */
