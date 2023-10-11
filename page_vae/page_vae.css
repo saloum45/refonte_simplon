@@ -1,0 +1,104 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'nunito';
+}
+body{
+    background-color: rgb(253, 248, 248);
+}
+:root{
+    --color-primaire:#CE0034;
+    --color-secondaire:#ce0034d2;
+}
+.container_bg_vae .baniere_vae{
+    background-image: url('../images_candidater/vae1.jpg');
+    border: 1px solid #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
+width: 100%;
+text-align: center;
+}
+.container_bg_vae .baniere_vae .hover{
+    background: #0000006c;
+    background-size: cover;
+    height:100%;
+    width: 100%
+}
+.container_bg_vae .baniere_vae .hover span{
+    position: relative;
+    top: 30%;
+    color: white;
+    font-size: ;
+}
+.container_bg_vae .baniere_vae .hover span h1{
+   font-weight: 700;
+   font-size: 32px;
+}
+
+.container_bg_vae .baniere_vae .hover span button{
+    color: white;
+    background: var(--color-primaire);
+    width: 15%;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 24px;
+   
+}
+.container_bg_vae .baniere_vae .hover span button a{
+   
+   text-decoration: none;
+   color: white;
+}
+/* ***************************vae middle*************************** */
+.container_vae_middle {
+    /* border: 1px solid #000; */
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.container_vae_middle .vae_middle1{
+    margin: 0 auto;
+    /* text-align: center; */
+}
+/* ***************************vae middle*************************** */
+.container_vae_middle .vae_middle1 h1{
+   color: var(--color-primaire);
+   text-align: center;
+}
+.container_vae_middle .vae_middle1 p{
+    font-size: 18px;}
+    .container_vae_middle .vae_middle1 a{
+        color: var(--color-primaire);
+        text-decoration: none;
+        font-weight: 700;
+    }
+    /* ************************middle2*************** */
+    .container_vae_middle  .vae_middle2{
+        display: flex;
+        width: 100%;
+        border: 1px solid #000;
+        margin: 0 auto;
+        
+}
+    .container_vae_middle  .vae_middle2 .vae_middle2_text{
+        padding-left: 5%;
+        width: 60%;
+        height: 100%;
+        font-size: 12px;
+   
+}
+.container_vae_middle  .vae_middle2 .vae_middle2_image{
+ 
+   
+
+}
+.container_vae_middle  .vae_middle2 .vae_middle2_image img{
+    width: 400px;
+    height: 200px;
+}
+/* ***************************vae middle*************************** */

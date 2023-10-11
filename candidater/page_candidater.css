@@ -67,7 +67,7 @@ body{
     margin: 0 auto;
 }
 .container_candidater .candidater_baniere{
-border: 1px solid red;
+/* border: 1px solid red; */
 background-image: url('../images_candidater/handicap.avif');
 background-color: #000;
 background-size: cover;
