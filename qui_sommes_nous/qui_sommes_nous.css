@@ -1,0 +1,197 @@
+/***** banner *****/
+
+
+.banner {
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.banner .banner-text {
+    position: relative;
+    color: white;
+    top: -350px;
+    padding-left: 50px;
+}
+
+.banner .banner-text p {
+    width: 50%;
+    margin-top: 40px;
+    margin: 0 auto;
+}
+
+.banner .banner-text button {
+    width: 30%;
+    background-color: #CE0034;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+}
+
+/***** End banner *****/
+
+/***** banner card *****/
+.banner-card {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -300px;
+    color: white;
+}
+
+.banner-card .banner-card-item {
+    height: 100px;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.312);
+    backdrop-filter: blur(20px);
+    /* text-align: center; */
+    text-align: center;
+    padding-top: 3%;
+
+}
+
+.banner-card .banner-card-item h4 {
+    text-decoration: underline red 2px;
+    text-underline-offset: 10px;
+}
+
+/* section histoire et engagements */
+/* section histoire et engagement */
+.histoire {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    overflow: auto;
+    border: 5px red dotted;
+    border-radius: 20px;
+    /* background-color: #F3E5E9; */
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.histoire .acutalite-item {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* .engagement {
+    height: 400px;
+    overflow: scroll;
+    border: 5px red dotted;
+    border-radius: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+} */
+
+
+/* section soutien */
+.soutien {
+    display: flex;
+    height: 150px;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-snap-type: X mandatory;
+
+}
+
+.soutien-item {
+    width: 20%;
+    height: 100%;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+
+.soutien-item img {
+    width: 100%;
+    height: 100%;
+}
+
+/* section video */
+.video iframe{
+    border-radius: 20px;
+}
+.video div:nth-child(1) div:nth-child(1){
+height: 800px;
+}
+.video div:nth-child(1) div:nth-child(2){
+height: 400px;
+
+}
+.video div:nth-child(2) div:nth-child(2){
+height: 800px;
+}
+.video div:nth-child(2) div:nth-child(1){
+height: 400px;
+}
+
+
+/***** responsive *****/
+@media screen and (max-width:767px){
+    /* banner */
+    .banner {
+        height: 400px;
+        width: 100%;
+        background-color: black;
+    }
+    
+    .banner img {
+        height: 100%;
+        width: 100%;
+        opacity: 0.5;
+    }
+    
+    .banner .banner-text {
+        position: relative;
+        color: white;
+        top: -350px;
+        padding-left: 0px;
+    }
+    
+    .banner .banner-text p {
+        width: 80%;
+        margin-top: 40px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+ /***** banner card *****/
+.banner-card {
+    width: 99%;
+}
+
+
+
+.banner-card .banner-card-item h4 {
+    font-size: 10px;
+    padding-top: 20%;
+}
+
+/* section histoire et engagement */
+.histoire {
+    
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* section video */
+.video {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+    
+}
+/***** End responsive *****/
