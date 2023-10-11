@@ -113,3 +113,63 @@
     height: 350px;
     padding: 10px;
 }
+
+
+/***** responsive *****/
+@media screen and (max-width:767px) {
+
+    /* section approche et simulateur */
+    .section-1 {
+        height: auto;
+        display: flex;
+        width: 98%;
+        margin: 0 auto;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .section-1-items {
+        /* background-color: green; */
+        width: 100%;
+        height: auto;
+
+    }
+
+    .section-1-items:nth-child(2) {
+        margin-top: 50px;
+
+    }
+
+    .section-1-item {
+        width: 100%;
+        /* min-height: 450px; */
+        height: auto;
+        padding: 10px;
+    }
+
+
+/* pedagogie */
+
+.pegagogie {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pegagogie-item {
+    width: 100%;
+}
+
+.pegagogie-item .image {
+    height: 180px;
+}
+
+
+.pegagogie-item .text {
+    height: auto;
+
+}
+}
+
+/***** End responsive *****/
