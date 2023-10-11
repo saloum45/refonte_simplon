@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root{
+    --rouge:#BE002F;
+    --blanc:#ffff;
+    --rose:#F3E5E9;
+    --noire:#00000000;
+
+}
+
+/* ******Banniere devenir formateur design********* */
+#formateur-content1{
+    height: 120vh;
+    /* border: 2px solid red; */
+}
+/* *****righthand design********** */
+.training-content{
+    display: flex;
+    justify-content: space-between;
+    /* height: 50%; */
+    border: 3px solid blue;
+}
+.training-content-right{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.logo-right-content{
+    display: flex;
+    justify-content: flex-start;
+}
+.logo-right-content img{
+    width: 20px;
+    height: 20px;
+    /* margin-top: 20px; */
+    /* padding-top: 2px; */
+}
+.logo-text-content{
+    /* margin-bottom: 15px; */
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.formateur-description-content{
+    color: var(--rouge);
+}
+.formateur-description-content-paragragh{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.btns-training-right{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    /* background-color: var(--noire); */
+}
+.btn-training1,.btn-training2{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 3px;
+
+}
+.btn-training2{
+    margin-left: 10px;
+}
+.btn-training1 a{
+    color: var(--blanc);
+    font-size: 15px;
+}
+.btn-training2 a{
+    font-size: 15px;
+    color: var(--blanc);
+}
+.training-content-right-allera{
+    
+    margin-top: 50px;
+    
+    background-color: var(--rose);
+    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-bottom: 20px; */
+}
+
+.training-content-right-allera hr{
+    width: 6%;
+    border: 3px solid var(--rouge);
+    margin-bottom: 10px;
+}
+.surligne-botoom{
+    border: 2px solid black;
+    position: relative; 
+    top: -350px;
+    z-index: 10;
+}
+/* *****lefthand design********** */
+.training-content-right-circle-red{
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    /* border-bottom-right-radius: 50%; */
+
+    border-left: 20px solid var(--rouge);
+    border-bottom: 20px solid var(--rouge);
+}
+.training-content-rightright-circle-blanc{
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    /* border-bottom-right-radius: 50%; */
+
+    border-left: 10px solid var(--blanc);
+    border-bottom: 10px solid var(--blanc);
+
+}
+#cercle-icons-traning{
+    color: var(--rouge);
+}
+.flexiblites-content{
+    display: flex;
+    justify-content: space-between;
+}
+.margin-content-traning{
+    margin-right: 40px;
+}
+
+.training-content-right-circle-red img{
+    width: 800px;
+    height: 500px;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    /* border-bottom-right-radius: 50%; */
+}
+.training-content-right-circle-bootom img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    /* margin: 10px; */
+    /* margin-top: 10px; */
+    margin-bottom: 20px;
+    border: 10px  solid rgba(255, 255, 255, 0.344);
+
+}
+
+
+.training-content-right-circle-bootom{
+    z-index: 10;
+    top: -350px;
+    position: relative;
+    border-radius: 50%;
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    border: 20px  solid var(--rose);
+   
+}
+.contenue-training-1{
+    width: 100%;
+    height: 50px;
+}
+/* ***********Section2******************** */
+.section-2-traning-content{
+     background-color: var(--rose);
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    /* border: 3px solid black; */
+    
+}
+.traning-description-content{
+    display: flex;
+    justify-content: space-around;
+}
+.traning-description-content-paragraph-secton2{
+    margin-left: 20px;
+}
