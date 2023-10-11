@@ -13,7 +13,6 @@ body{
 }
 .container_bg_vae .baniere_vae{
     background-image: url('../images_candidater/vae1.jpg');
-    border: 1px solid #000;
     background-size: cover;
     background-repeat: no-repeat;
     height:500px;
@@ -93,14 +92,39 @@ text-align: center;
    margin: 5% auto;
 }
 .container_vae_middle .vae_middle3 {
-border: 1px solid #000;
+/* border: 1px solid #000; */
 background-color: var(--color-primaire);
 padding: 1% 5%;
 color: white;
 text-align: center;
 font-weight: 700;
 }
-.container_vae_middle .vae_middle3 {
-
+.container_vae_middle .vae_middle4 {
+    margin-top: 1%;
+    margin-bottom: 0;
+    background-image: url('../images_candidater/conatct1.jpg');
+    height: 100%;
+}
+.container_vae_middle .vae_middle4 .vae_middle4_text {
+   
+   background: #00000081;
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+    color: white;
+    padding: 10% 0;
+  
+}
+.container_vae_middle .vae_middle4 .vae_middle4_text #btn_middle4{
+    position: relative;
+    top: -5%;
+    color: #f6f6f6;
+    width: 10em;
+    height: 3em;
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--color-primaire);
+    font-weight: 700;
+    font-size: 18px;
 }
 /* ***************************vae middle*************************** */
