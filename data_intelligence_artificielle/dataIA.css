@@ -1,18 +1,14 @@
 .text_entete {
-    background-image: url("/image/fondamentaux.jpeg");
-    /* position: absolute; */
+    background-image: url("/image/data-IA.jpg");
     height: 400px;
     padding-top: 200px;
-    padding-left: 50px;
     text-align: center;
-    color:red;
-    font-size: 60px;
-    width: 200% no-repeat;
-
+    color: white;
+    font-size: 70px;
 }
 
 .entete_mariage {
-    font-size: 56px;
+    font-size: 120px;
     width: 100%;
 }
 
@@ -67,7 +63,7 @@
 .bloc_formation {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    argin-top: 50px;
+    margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 20px;
     margin-left: 20px;

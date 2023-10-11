@@ -6,7 +6,7 @@
     padding-left: 50px;
     text-align: left;
     color: white;
-    font-size: 64px;
+    font-size: 60px;
    
 }
 .entete_mariage {
@@ -64,7 +64,7 @@
 .bloc_formation {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    argin-top: 50px;
+    margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 20px;
     margin-left: 20px;
@@ -76,7 +76,6 @@
 }
 
 p {
-    font-size: 20px;
     margin-left: 20px;
 }
 
