@@ -1,35 +1,43 @@
 .text_entete {
-    background-image: url("/image/Cybersécurité1.png");
+    background-image: url("/image/developpeur1.png");
     /* position: absolute; */
     height: 300px;
     padding-top: 100px;
     padding-left: 50px;
-    font-size: 700px;
     text-align: left;
     color: white;
+    font-size: 64px;
+   
 }
-.bloc1{
+.entete_mariage {
+    font-size: 56px;
+    width: 100%;
+}
+.bloc1 {
     background-color: #F3E5E9;
     grid-template-columns: repeat(4, 1fr);
-        justify-content: center;
-        margin-top: 50px;
-        margin-left: 20px;
-        width: 90%;
-        margin-bottom: 50px;
-        border: red solid;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 90%;
+    margin-bottom: 50px;
+    border: red solid;
 
 }
-.blanc{
+
+.blanc {
     background-color: white;
     color: red;
     border: red solid;
 }
-.rede{
+
+.rede {
     background-color: red;
     color: white;
     border: white solid;
 }
-.bloc1 button{
+
+.bloc1 button {
     width: 50%;
     height: 50px;
     border-radius: 10%;
@@ -37,36 +45,42 @@
     margin-bottom: 20px;
     border: red solid;
 }
-.bloc11{
+
+.bloc11 {
     justify-content: space-between;
-    background-color:#F3E5E9;
+    background-color: #F3E5E9;
     /* padding: 20px; */
     align-items: center;
     width: 100%;
-    
-    
- /* text-align: center; */
+
+
+    /* text-align: center; */
 }
-.bloc_formation img{
+
+.bloc_formation img {
     width: 100%;
 }
-.bloc_formation{
-display: grid;
-grid-template-columns: repeat(4, 1fr);argin-top: 50px;
-margin-bottom: 50px;
-margin-right: 20px;
-margin-left:20px ;
-overflow: hidden;
-width: 100%;
-background-color:white; 
-/* border: red solid; */
+
+.bloc_formation {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    argin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    /* border: red solid; */
 
 }
-p{
+
+p {
     font-size: 20px;
     margin-left: 20px;
 }
-.formation{
+
+.formation {
     font-size: 42px;
     text-decoration: underline;
     margin-top: 10px;
