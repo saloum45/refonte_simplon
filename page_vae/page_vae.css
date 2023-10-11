@@ -92,5 +92,15 @@ text-align: center;
    height: 300px;
    margin: 5% auto;
 }
-.container_vae_middle
+.container_vae_middle .vae_middle3 {
+border: 1px solid #000;
+background-color: var(--color-primaire);
+padding: 1% 5%;
+color: white;
+text-align: center;
+font-weight: 700;
+}
+.container_vae_middle .vae_middle3 {
+
+}
 /* ***************************vae middle*************************** */
