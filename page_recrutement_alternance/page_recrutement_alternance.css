@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Recrutement-alterne .recrutement-banier{
+    background-image: url(image/pédagogie_active.jpg);
+    max-width: 100%;
+    height: 500px;
+}
