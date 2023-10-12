@@ -1,0 +1,140 @@
+:root{
+    --color-primaire:#CE0034;
+    --color-secondaire:#ce0034d2;
+}
+.container_migration .baniere_migration{
+    border: 1px solid #000;
+    background-image: url('../images_candidater/gg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
+    width: 100%;
+    text-align: center;
+}
+
+.baniere_migration .hover_migration{
+    background: #0000006c;
+    background-size: cover;
+    height:100%;
+    width: 100%
+    
+     }
+     .container_migration .baniere_migration span{
+        position: relative;
+        top: 30%;
+        color: white;
+    }
+    .baniere_migration .hover_migration span h1{
+        font-weight: 700;
+        font-size: 32px;
+     }
+     .baniere_migration .hover_migration span button{
+        color: white;
+        background: var(--color-primaire);
+        width: 15%;
+        height: 50px;
+        border: 0;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 24px;
+       
+    }
+    .baniere_migration .hover_migration span button a{
+   
+        text-decoration: none;
+        color: white;
+     }
+   
+    /* *************desc igration****************** */
+    .desc_migration{
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+    .desc_migration .desc_migration_text{
+       width: 50%;
+       text-align: justify;
+       margin: 1% auto;
+    }
+    .desc_migration .desc_migration_text h1{
+       text-align: center;
+       color: var(--color-primaire);
+       font-weight: 700 ;
+       
+    }
+    .desc_migration .desc_migration_text p{
+       margin-top: 1%;
+       font-size: 18px;
+    }
+    .desc_migration .desc_migration_text hr{
+      border-color: #CE0034;
+      border-width: 3px;
+     margin: 0 auto;
+      width: 15%;
+
+    }
+    
+    /* *************desc igration****************** */
+
+   #h1card{
+    color: #252B42;
+    font-weight: 700;
+   }
+   #p1card{
+    font-weight: 700;
+    color: #686868;
+   }
+   #general_migration{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+padding: 2% 2%; 
+ }
+ /* ***************talent tech**************** */
+.team_tech0{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin: 0 auto;
+    width: 80%;
+    gap: 5%;
+}
+.team_container_tech{
+    display: flex;
+    width: 100%;
+   border-radius: 5px;
+    margin: 5% auto;
+    box-shadow: 2px 2px 4px gray;
+    height: 78%;
+    
+}
+.team_container_tech img{
+    width:200px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.team_container_tech .team_tech2 .btntech{
+    display: flex;
+    gap: 50%;
+}
+
+.team_container_tech .team_tech2 .btntech #button_team_tech1{
+    background-color: var(--color-primaire);
+    border: 0;
+    color: #f6f6f6;
+    width: 7em;
+    height: 2em;
+    margin-top: -2%;
+    border-radius: 5px;
+}
+    
+.team_container_tech .team_tech2 .btntech #button_team_tech2{
+    background-color: black;
+    border: 0;
+    color: #f6f6f6;
+    width: 7em;
+    height: 2em;
+    margin-top: -2%;
+    border-radius: 5px;
+}
+/* **** */
+    
+   

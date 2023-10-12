@@ -1,0 +1,179 @@
+:root{
+    --color-primaire:#CE0034;
+    --color-secondaire:#ce0034d2;
+}
+/**
+
+/* ***************conataine femm r**************** */
+.container_femme .femme_baniere{
+background-image: url('../images_candidater/handicap.avif');
+background-color: #000;
+background-size: cover;
+background-repeat: no-repeat;
+/* background-attachment: fixed; */
+/* filter: blur(2px); */
+height:600px;
+width: 100%;
+text-align: center;
+}
+.container_femme .femme_banniere_text{
+    color: rgb(9, 9, 9);
+    /* margin-top: 5%; */
+    font-weight: 700;
+    position: relative;
+    top: 20px;
+}
+.containercicle_femme{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 60%;
+    height: auto;
+    margin: -7em 18em;
+    text-align: center;
+}
+
+.container_femme .circle1 {
+    border: 1px solid #d52a2a;
+    background:var(--color-primaire);
+    border-radius: 100%;
+    width: 200px;
+    height:200px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgb(87, 86, 86);
+    margin: 0 auto;
+    
+    
+}
+/* **************rectangle************************ */
+
+.container_femme .container_rectangle1_femme {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:10%;
+    width: 60%;
+    margin-left:20% ;
+    gap: 2%;
+    height: 80%;
+}
+.container_femme .container_rectangle1_femme .rectangle1 {
+    background-color: #ffffff;
+    display: flex;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    gap: 10%;
+    color: #000000;
+    box-shadow: 2px 2px 4px gray;
+}
+.container_femme .container_rectangle1_femme .rectangle1 .rect_text {
+width: 100%;
+}
+#rectlink {
+    text-decoration: none; 
+    color: var(--color-primaire); font-weight: 700; 
+    position: relative;
+    top: -15px;
+}
+.container_femme .container_rectangle1_feme .rectangle1 .rect_icone img {
+
+}
+
+/* ***************conataine femme r**************** */
+/* ***************talent femmer**************** */
+.content_middle{
+    background-color:var(--color-primaire);
+    display: grid;
+    grid-auto-rows: 1fr;
+    padding: 2%;
+    width: 100%;
+}
+.content_middle .talent_container{
+    background-color: var(--color-primaire);
+    /* border: 1px solid #000; */
+ display: flex;
+flex-direction: row;
+width: 70%;
+height: 100%;
+margin: 0 auto;}
+.talent_container .talent_text{
+    /* border: 1px solid #b80e0e; */
+   width: 50%; 
+   height: auto;
+   padding-right:  5% ;
+   color: #ffffff;
+
+}
+.talent_container .talent_text button{
+    background-color: #000000;
+    width: 40%;
+    margin-bottom: 3%;
+    height: 15%;
+    border-radius: 5px;
+    color: #ffffff;
+    border:0;
+
+}
+.talent_container  #child2 button{
+    background-color: #000000;
+    width: 40%;
+    margin-bottom: 3%;
+    height: 15%;
+    border-radius: 5px;
+    color: #ffffff;
+    border:0;
+
+}
+.talent_container #child2{
+    /* border: 1px solid #b80e0e; */
+   padding-left:  5% ;
+   color: #ffffff;
+
+}
+ .talent_container .talent_image{
+    /* border: 1px solid #0eb830; */
+   width: 50%;
+   height: auto;
+
+}
+.talent_container .talent_image img{
+    /* border: 1px solid #0eb830; */
+   width: 100%;
+   height: 100%;
+
+}
+/* ***************talent tech**************** */
+
+.talent_container_tech{
+    /* border:2px solid green; */
+    display: flex;
+    width: 68%;
+    height: 200px;
+    margin: 5% auto;
+    box-shadow: 2px 2px 4px gray;
+}
+.talent_container_tech img{
+    width: 400px;
+    height: 200px;
+}
+.talent_container_tech .talent_tech2{
+    padding-left: 5%;
+    width: 500px;
+    font-size: 12px;
+}
+.talent_container_tech .talent_tech2 #button_tech{
+    position: relative;
+    top: -5%;
+    color: #f6f6f6;
+    width: 10em;
+    height: 2em;
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--color-primaire);
+}
+/* ***************talent femmer**************** */
+/**************************************** slide **************************/
+
+/**************************************** slide **************************/
+
