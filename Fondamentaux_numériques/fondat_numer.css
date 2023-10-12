@@ -1,0 +1,92 @@
+.text_entete {
+    background-image: url("/image/fondamentaux.jpeg");
+    /* position: absolute; */
+    height: 400px;
+    padding-top: 200px;
+    padding-left: 50px;
+    text-align: center;
+    color:red;
+    font-size: 60px;
+    width: 200% no-repeat;
+
+}
+
+.entete_mariage {
+    font-size: 56px;
+    width: 100%;
+}
+
+.bloc1 {
+    background-color: #F3E5E9;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 90%;
+    margin-bottom: 50px;
+    border: red solid;
+
+}
+
+.blanc {
+    background-color: white;
+    color: red;
+    border: red solid;
+}
+
+.rede {
+    background-color: red;
+    color: white;
+    border: white solid;
+}
+
+.bloc1 button {
+    width: 50%;
+    height: 50px;
+    border-radius: 10%;
+    margin-left: 75px;
+    margin-bottom: 20px;
+    border: red solid;
+}
+
+.bloc11 {
+    justify-content: space-between;
+    background-color: #F3E5E9;
+    /* padding: 20px; */
+    align-items: center;
+    width: 100%;
+
+
+    /* text-align: center; */
+}
+
+.bloc_formation img {
+    width: 100%;
+}
+
+.bloc_formation {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    argin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    /* border: red solid; */
+
+}
+
+p {
+    /* font-size: 20px; */
+    margin-left: 20px;
+}
+
+.formation {
+    font-size: 42px;
+    text-decoration: underline;
+    margin-top: 10px;
+    /* margin-left: 20px; */
+
+}

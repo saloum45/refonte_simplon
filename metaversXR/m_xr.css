@@ -1,0 +1,99 @@
+.text_entete {
+    background-image: url("/image/Metaverse\ et\ xr.webp");
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+    text-align: left;
+    color: white;
+    font-size: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20%;
+}
+
+.entete_mariage {
+    font-size: 120px;
+    width: 100%;
+}
+
+.bloc1 {
+    background-color: #F3E5E9;
+    /* grid-template-columns: repeat(4, 1fr); */
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 25%;
+    margin-bottom: 50px;
+    /* border: red solid; */
+    height: 435px;
+
+}
+
+
+.blanc {
+    background-color: white;
+    color: red;
+    border: red solid;
+}
+
+.rede {
+    background-color: red;
+    color: white;
+    border: white solid;
+}
+
+.bloc1 button {
+    width: 50%;
+    height: 50px;
+    border-radius: 10%;
+    margin-left: 75px;
+    margin-bottom: 20px;
+    border: red solid;
+}
+
+.bloc11 {
+    justify-content: space-between;
+    background-color: #F3E5E9;
+    /* padding: 20px; */
+    align-items: center;
+    width: 100%;
+
+
+    /* text-align: center; */
+}
+
+.bloc_formation img {
+    width: 100%;
+}
+
+.bloc_formation {
+    display: flex;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    gap: 10px;
+    height: 500px;
+    border: black solid transparent;
+    box-shadow: 1px black;
+
+}
+.bloc2 {
+    width: 65%;
+    height: 500px;
+}
+
+p {
+    /* font-size: 20px; */
+    margin-left: 20px;
+}
+
+.formation {
+    font-size: 42px;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
