@@ -1,0 +1,198 @@
+.banner {
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.banner .banner-text {
+    position: relative;
+    color: white;
+    top: -350px;
+    padding-left: 50px;
+}
+
+.banner .banner-text p {
+    width: 50%;
+    margin-top: 40px;
+}
+
+.banner .banner-text button {
+    width: 30%;
+    background-color: #CE0034;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+
+}
+
+/* section  */
+.section-width {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* section partenaires */
+
+.section-partenaire {
+    height: auto;
+    /* background-color: red; */
+}
+
+.section-partenaire .partenaire-items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section-partenaire .partenaire-item {
+    display: flex;
+    width: 100%;
+    min-height: 200px;
+    border-radius: 20px;
+    background-color: #F3E5E9;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+}
+
+
+.section-partenaire .partenaire-item .image {
+    width: 35%;
+    /* background-color: green; */
+
+}
+
+.section-partenaire .partenaire-item .image img {
+    border-radius: 20px 0 0 20px;
+    width: 100%;
+    height: 100%;
+    /* min-height: 200px; */
+
+}
+
+.section-partenaire .partenaire-item .text {
+    width: 65%;
+    /* background-color: aqua; */
+    /* padding: 20px 60px 20px 60px; */
+    padding-right: 80px;
+    padding-left: 80px;
+
+
+}
+
+.section-partenaire .partenaire-item .text p {
+    min-height: 100px;
+
+
+}
+
+
+/* section 3 */
+
+.card-items {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: red; */
+    height: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card-item {
+    width: 30%;
+    height: 480px;
+    background-color: #F3E5E9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-item .card-image {
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.card-item .card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 45%;
+}
+
+.card-item .card-text p {
+    min-height: 170px;
+}
+
+
+/***** responsive *****/
+
+@media screen and (max-width:767px) {
+
+    /* section banniere */
+    .banner .banner-text {
+        position: relative;
+        color: white;
+        top: -350px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .banner .banner-text p {
+        width: 80%;
+        padding-top: 20px;
+        text-align: start;
+        margin: 0 auto;
+    }
+
+    .banner .banner-text p br {
+        display: none;
+    }
+
+    .banner .banner-text button {
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    /* section  */
+    .section-width {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    /* section partenaires */
+
+
+
+
+    .section-partenaire .partenaire-item .text {
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 10px;
+
+
+    }
+
+    /* section 3 */
+
+    .card-items {
+        width: 95%;git
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .card-item {
+        width: 100%;
+    }
+
+  
+
+
+}
