@@ -1,0 +1,152 @@
+:root{
+    --color-primaire:#CE0034;
+    --color-secondaire:#ce0034d2;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Nunito',;
+}
+
+ .bn_blokchain{
+   background-image: url('../images_candidater/blockchain6.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   height:500px;
+width: 100%;
+text-align: left; 
+
+}
+ .bn_blokchain #hover1{
+    background: #0000006c;
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+   
+    font-family:'nunito' ;
+  
+}
+ .bn_blokchain #hover1 .title_hover{
+
+    position: relative;
+    top: 20%;
+    color: white;
+    width: 30%;
+}
+ .bn_blokchain #hover1 .title_hover h1{
+font-weight: 700;
+/* font-family:'v' ; */
+font-family:'nunito' ;
+
+}
+.bn_blokchain #hover1 .title_hover h1:nth-child(3){
+    color: var(--color-primaire);
+    font-family:'nunito' ;
+    
+}
+.bn_blokchain #hover1 .title_hover p{
+font-size: 18px;
+font-family:'nunito' ;
+
+}
+.bn_blokchain #hover1 .imgblc{
+font-size: 18px;
+font-family:'nunito' ;
+width: 40%;
+
+}
+/* *****************************section rouge************ */
+.bottombn{
+    background-color: #CE0034;
+    color: white;
+    width: 100%;
+    height: 10%;
+}
+.bottombn .bottombn1{
+    text-align: center;
+    margin: 0 auto;
+   
+}
+.bottombn .bottombn1 p{
+    color: rgb(0, 0, 0);
+    font-family:'nunito' ;
+    text-align: center;
+}
+.bottombn .bottombn1 h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:'nunito' ;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.bottombn .bottombn2{
+    /* background-color:blue; */
+    width: 90%;
+    text-align: left;
+    padding: 2% 1%;
+    height:27em;
+    margin: 0 auto;
+    /* width: 5%; */
+}
+
+.bottombn .bottombn2 .head1{
+    /* background-color: rgb(61, 19, 177); */
+    width: 30%;
+    border-left: 3px solid rgb(0, 0, 0);
+    padding-left: 1%;
+    
+}
+.bottombn .bottombn2 .head2 .head2_text .botspan{
+    /* background-color: rgb(61, 19, 177); */
+    width: 100%;
+    border-left: 3px solid rgb(0, 0, 0);
+    padding-left: 1%;
+    /* display: block; */
+    margin-bottom: 1%;
+    /* background-color: aqua; */
+    display: grid;
+}
+
+/* *****************************section rouge************ */
+/* **************responsive************* */
+@media screen and (max-width:767px){
+  .bottombn .bottombn2{
+    display: flex;
+    flex-direction: column;
+}  
+.bottombn{
+  display: flex;
+  flex-direction: column;
+}
+.imgblc{
+    display: none !important;
+}
+.title_hover{
+    /* text-align: center; */
+    width: 500px;
+    background-color: green;
+    /* margin: auto; */
+    margin-top: -200px;
+    margin-left: 120px;
+    height: 50%;
+
+}
+.bn_blokchain #hover1 .title_hover p{
+    font-size: 18px;
+    font-family:'nunito' ;
+    
+    }
+    #dibi{
+        text-align: center;
+        height: 20px;
+        width: 200px;
+        font-size: 3px;
+        
+    }
+}
