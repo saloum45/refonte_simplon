@@ -5,10 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<!-- importation icon  -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../header_footer/header_footer.css">
     <link rel="stylesheet" href="formateur.css">
     <title>Devenir formateur</title>
 </head>
 <body >
+
+        <!-- ========== Start header ========== -->
+
+        <nav class="navbar navbar-expand-lg" id="nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://simplon.co/images/logo.svg" alt="logo">
+    
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">ACCUEIL</a>
+                        </li>
+    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                A PROPOS
+                            </a>
+                            <ul class="dropdown-menu" id="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Qui sommes-nous</a></li>
+                                <li><a class="dropdown-item" href="#">Notre reseau de fabrique</a></li>
+    
+                                <li><a class="dropdown-item pt-0" href="#">Nos actions pour un <br>numérique inclusif</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Anti-faq</a></li>
+                            </ul>
+                        </li>
+    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                NOS FORMATION
+                            </a>
+                            <ul class="dropdown-menu" id="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Infrastructures et Cybersécurité</a></li>
+                                <li><a class="dropdown-item" href="#">Développement d'application</a></li>
+    
+                                <li><a class="dropdown-item" href="#">Fondamentaux numériques</a></li>
+                                <li><a class="dropdown-item" href="#">Gestion de projet agile</a></li>
+                                <li><a class="dropdown-item" href="#">Cloud et Devops</a></li>
+    
+                                <li><a class="dropdown-item" href="#">Data & intelligence artificielles</a></li>
+                                <li><a class="dropdown-item" href="#">Metaverse & XR</a></li>
+                                <li><a class="dropdown-item" href="#">Blockchain</a></li>
+                            </ul>
+                        </li>
+    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                ALTERNANCE
+                            </a>
+                            <ul class="dropdown-menu" id="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Formation en alternance</a></li>
+                                <li><a class="dropdown-item" href="#">Recruter en alternance</a></li>
+    
+    
+                            </ul>
+                        </li>
+    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                CANDIDATS
+                            </a>
+                            <ul class="dropdown-menu" id="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Candidater</a></li>
+                                <li><a class="dropdown-item" href="#">Vae</a></li>
+    
+                                <li><a class="dropdown-item" href="#">Action femme</a></li>
+                                <li><a class="dropdown-item" href="#">Hadicap</a></li>
+                                <li><a class="dropdown-item" href="#">Migration</a></li>
+                                <li><a class="dropdown-item" href="#">Blockchain</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                ENTREPRISE
+                            </a>
+                            <ul class="dropdown-menu" id="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Formation salariés</a></li>
+                                <li><a class="dropdown-item" href="#">Collecte tva 2023</a></li>
+    
+                            </ul>
+                        </li>
+    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ========== End header ========== -->
+    
     <section id="formateur-content1" >
         <!-- ******Debut-container******* -->
         <div class="contenue-training-1">
@@ -89,7 +195,7 @@
      <section class="section-2-traning-content">
     <div class="container">
         <div class="traning-description-content">
-            <div>
+            <div class="traning-description-content-img">
                 <img src="images/9.PNG" alt="">
             </div>
             <div class="traning-description-content-paragraph-secton2">
@@ -110,16 +216,42 @@
         </div>
     </div>
    </section>   
-   <!-- <section class="card-traning-content">
-    <h1>Les avantages d'être formateur / formatrice</h1>
+   <section class="card-traning-content-section-3"  >
+
+    <h1 class="avantages-content-titre">Les avantages d'être formateur / formatrice</h1>
+    <hr class="titre-content-formatrice">
     <div id="card-traning-content-container">
-        <div>
-            <div>
+        <div class="card1-content-container">
+            <div class="card-img-content">
                 <img src="images/about2.PNG" alt="">
             </div>
-            <div>
-                <h1>Avoir ​​​​​​​de ​​​​​​​​​​​​​​la flexibilite</h1>
-                <hr>
+            <div class="soulignement-content-titre">
+                <h6>Avoir ​​​​​​​de ​​​​​​​​​​​​​​la flexibilite</h6>
+                <hr class="soulignement-content-titre-hr">
+                <p>Contrat plein temps, à temps partiel ou encore en freelance, Simplon.co est ouvert
+                    ​​​​​​​sur la meilleure manière de
+                    ​​​​​​​collaborer.</p>
+            </div>
+        </div>
+        <div class="card1-content-container">
+            <div class="card-img-content">
+                <img src="images/about7.PNG" alt="">
+            </div>
+            <div class="soulignement-content-titre">
+                <h6>Avoir ​​​​​​​de ​​​​​​​​​​​​​​la flexibilite</h6>
+                <hr class="soulignement-content-titre-hr">
+                <p>Contrat plein temps, à temps partiel ou encore en freelance, Simplon.co est ouvert
+                    ​​​​​​​sur la meilleure manière de
+                    ​​​​​​​collaborer.</p>
+            </div>
+        </div>
+        <div class="card1-content-container">
+            <div class="card-img-content">
+                <img src="images/about4.PNG" alt="">
+            </div>
+            <div class="soulignement-content-titre">
+                <h6>Avoir ​​​​​​​de ​​​​​​​​​​​​​​la flexibilite</h6>
+                <hr class="soulignement-content-titre-hr">
                 <p>Contrat plein temps, à temps partiel ou encore en freelance, Simplon.co est ouvert
                     ​​​​​​​sur la meilleure manière de
                     ​​​​​​​collaborer.</p>
@@ -128,6 +260,207 @@
 
     </div>
 
-   </section> -->
+   </section> 
+   <section class="section-3-traning-content">
+    <div class="content-training-text-all container">
+        <h3 class="content-training-text-all-h3">Nous formons à former</h3>
+        <hr class="titre-content-formatrice">
+        <div class="content-training-text">
+            <h5>Le profil du formateur Simplon ?</h5>
+            <p>2 ans minimum d’expérience professionnelle 
+                 sur les technos du référentiel enseigné.<br>
+                  Une expérience dans la formation professionnelle
+                  est un plus, mais n’est pas indispensable ! <br>
+                  Si vous avez mentorés des juniors, des stagiaires 
+                  ou que vous avez envie de transmettre, vous êtes la bonne personne.</p>
+
+            
+            <h5>La formation de formateur (F2F)</h5>
+            <p>“Former des professionnels par l’analyse du travail”, 
+                est une formation de 5 jours, dispensée à tous les nouveaux <br>
+                formateurs/formatrices Simplon.
+
+            </p>
+            <h5>Les objectifs visés sont :</h5>
+            <p>Apprendre le métier de formateur à Simplon et outiller sa pratique.
+                Monter en compétences sur l’analyse de son travail et l’analyse des<br>
+                 apprentissages. Réfléchir à la posture du formateur et aux modalités 
+                 d’évaluation. Nos équipes vous apprennent à construire vos sessions<br>
+                  de formation, utiliser notre plateforme pédagogique, à suivre vos
+                   apprenants et vous assurer de leur bonne montée en compétences <br>
+                   tout au long de la formation..
+
+            </p>
+
+        </div>
+        <div class="content-training-text" id="content-training-text">
+            <h3>Une communauté de plus de 150 formateurs <br>
+                Experts dans tous les métiers du numérique :
+            </h3>
+            <p>Développement web :  Back-end et Front end,Développement <br> 
+                natif et mobile sur Android et iOS Infrastructure & DevOps : <br>
+                Administration systèmes et réseaux, Support bureautique, <br>
+                Cybersécurité ,Cloud Data analyse / Intelligence Artificielle <br>
+                Méthode Agile, Culture DevOps, Acculturation numérique…<br>
+                Il y a une formation adaptée à tous vos savoir-faire ! <br>
+            </p>
+        </div>
+        <div class="btn-btn-formations"><a href="">DECOUVREZ NOS OFFRES DE FORMATIONS</a></div>
+        
+    </div>
+   </section>
+   <section class="section-4-traning-content">
+    <div class="container">
+        <h3 class="modalites-section4-training">Modalités pratiques pour rejoindre une communauté engagée en faveur de l'inclusion numérique</h3>
+        <hr class="titre-content-formatrice">
+        <div class="contaner-cards-section4">
+            <div class="contaner-cards-section4-left">
+                <img src="images/about3-removebg-preview.png" alt="">
+
+            </div>
+            <div class="contaner-cards-section4-right">
+                <h5>Quel contrat ?</h5>
+                <p>Le mot d’ordre est flexibilité : Nous nous adaptons à votre situation professionnelle 
+                : Contrats salariés (CDD, CDI) ou contrat de prestation, à temps plein ou Temps partiel.</p>
+                <h5> ​​​​​​​Avec qui ? ?</h5>
+                <p>Vous travaillerez le plus souvent en binôme avec un autre formateur et toujours 
+                    accompagné d’une équipe pédagogique Simplon.co.</p>
+
+            </div>
+
+        </div>
+        <div class="contaner-cards-section4">
+            <div class="contaner-cards-section4-left">
+                <img src="images/last-removebg-preview.png" alt="">
+
+            </div>
+            <div class="contaner-cards-section4-right">
+                <h5>Où ?</h5>
+                <p>En présentiel, dans une de nos Fabriques partout en France et à l’international.</p>
+                <h5> ​​​​​​​Combien temps ?</h5>
+                <p>L’intervention des formateurs est variable en fonction des thématiques abordées (cursus et formats)..</p>
+                <h5>​​​​​​​Comment ?</h5>
+                <p>Nous mettons à votre disposition des outils pour un suivi optimal de vos promotions : Simplonline, plateforme numérique de pédagogie active en approche par compétences, Canevas, pour construire vos formations.</p>
+                
+            </div>
+
+        </div>
+        <div class="contaner-cards-section4">
+            <div class="contaner-cards-section4-left">
+                <img src="images/Capture2-removebg-preview.png" alt="">
+
+            </div>
+            <div class="contaner-cards-section4-right">
+                <h5>Deux typologies de formations innovantes</h5>
+                <p>LIl existe principalement 2 types de formations. Les Formations courtes intensives de type “SAS” (cycles certifiants et/ou préparatoires aux cycles longs)
+                    Formation en continu : 5 jours par semaine pendant 4 à 6 semaines.
+                    Les Formations longues (cycles diplômants | Titres RNCP)
+                    Vous accompagnez les apprenants 2 ou 3 jours par semaine pendant 4 à 8 mois.
+                    Ils partent ensuite en entreprise pendant 12 à 18 mois sur un rythme 1 semaine de cours / 3 semaines en entreprise.
+                    Découvrez nos formations ouvertes à la candidature.</p>
+                
+
+            </div>
+
+        </div>
+        <div class="btn-btn-formations"><a href="">ENVOYER VOTRE CANDIDATURE</a></div>
+
+    </div>
+
+   </section>
+   <section class="section-5-traning-content">
+    <div class="container">
+        <hr class="content-section5-hr">
+        <h5 class="text-align-center-section5">Simplon au national</h5>
+        <p class="text-align-center-section5-para">Des mini-sites régionaux vous permettent d’accéder aux formations  <br>
+            et actualités liées à chaque région.
+            Auvergne-Rhône-Alpes, ​​​​Grand Est, Grand Ouest, Hauts-de-France,<br> 
+            Île-de-France, Nouvelle-Aquitaine, Occitanie, Outre-Mer, Paca.</p>
+            <div  class="carte-section5 ">
+                <div class="carte-section5-img">
+                    <img src="images/paris.PNG" alt="">
+
+                </div>
+                <div class="carte-section5-vd">
+                    <!-- <iframe style="width:640; height:360"; src="https://www.youtube.com/watch?v=dI-qwERnqWs&t=2s"></iframe> -->
+                    <video width="640" height="360" controls>
+                        <source src="https://www.youtube.com/watch?v=dI-qwERnqWs&t=2s" type="video/mp4">
+                      </video>
+                      <h5>Portrait d'un formateur</h5>
+                      <p>Collaborer avec Simplon.co autrement
+                        Vous voulez participer à l'aventure Simplon.co, mais vous n'avez pas beaucoup de temps ; c'est possible !
+                        
+                        </p>
+                        <div class="btn-btn-formations1"><a href="">COLLABORER AVEC SIMPLON AUTREMENT</a></div>
+                </div>
+                
+            </div>
+
+    </div>
+
+   </section>
+   
+       <!-- ========== Start footer ========== -->
+       <footer>
+        <div class="footer-items">
+            <div class="item">
+                <img src="https://simplon.co/images/logo.svg" alt="logo">
+                <div>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                </div>
+                <div>
+                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-tiktok"></i>
+                    <i class="bi bi-youtube"></i>
+                </div>
+            </div>
+
+            <div class="item">
+                <h3>Liens intéressants</h3>
+                <hr>
+
+                <div class="footer-links">
+
+                    <div class="footer-link">
+                        <a href=""><i class="bi bi-link"></i> Devenir formateur</a>
+                        <a href=""><i class="bi bi-link"></i> Rejoindre nos équipes</a>
+                        <a href=""><i class="bi bi-link"></i> Simplon foundation</a>
+                        <a href=""><i class="bi bi-link"></i> Mentions légales</a>
+                        <a href=""><i class="bi bi-link"></i> Accéssibilité</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href=""><i class="bi bi-link"></i> Contact</a>
+                        <a href=""><i class="bi bi-link"></i> Blog</a>
+                        <a href=""><i class="bi bi-link"></i> Presse</a>
+                        <a href=""><i class="bi bi-link"></i> Plan site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <h3>Restez informés</h3>
+                <hr>
+                <div class="footer-newsletter">
+                    <span>Inscrivez-vous à la newsletter</span>
+                    <input type="text" placeholder="ENTRER VOTRE MAIL">
+                    <button>S'inscrire</button>
+                </div>
+            </div>
+        </div>
+        <p class="text-center text-white mt-3">©COPYRIGHT @SIMPLON2023</p>
+    </footer>
+
+    <!-- ========== End footer ========== -->
+
+
+
+
+   
+   
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+   crossorigin="anonymous"></script>
+
 </body>
 </html>
