@@ -1,0 +1,51 @@
+.faq {
+    height: auto;
+    /* background-color: green; */
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-item {
+    height: 600px;
+    background-color: #F3E5E9;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    /* text-align: center; */
+    
+    color: #CE0034;
+}
+
+.faq-item i {
+    font-size: 25px;
+}
+
+.faq-item:nth-child(1) {
+
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.faq-item:nth-child(2) {
+
+    text-align: center;
+
+}
+.faq-item:nth-child(2) i {
+
+    font-size: 60px;
+
+}
+.faq-item:nth-child(2) .text {
+
+    color: black;
+    height: 400px;
+    overflow: scroll;
+    text-align: start;
+    margin-top: 30px;
+
+}
