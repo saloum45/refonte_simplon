@@ -1,0 +1,7 @@
+.recrutement-banier{
+    background-image:url(../page_recrutement_alternance/image/pédagogie_active.jpg);
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 600px;
+    background-size: cover;
+}
