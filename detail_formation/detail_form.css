@@ -159,3 +159,79 @@ background-position: 20%;
     position: relative;
     top: -15px;
 }
+@media screen and (max-width: 767px) {
+    .Detail_formaton{
+        margin: auto;
+        width: 90%;
+        font-size: 10px;
+    }
+    .text_entete{
+        margin: auto;
+        padding-left: 100px;
+        overflow: hidden;
+        width: 90%;
+        text-align: left;
+        font-size: 12px;
+    }
+    .container_rectangl1_VP{margin: auto;
+        width: 80%;
+        font-size: 10px;
+    }
+        .rectangl1{margin: auto;
+            width: 80%;
+            font-size: 10px;
+        }
+     .recte_icone{margin: auto;
+        width: 80%;
+        font-size: 10px;
+    }
+    .bloc2{
+        width: 80%;
+        background-position: 20%;
+        background-image: 80%;
+    }
+    .recte_icone1{
+        margin: auto;
+         width: 80%;
+         overflow: hidden;
+         font-size: 10px;
+    }
+    .detail_categorie{
+        margin: auto;
+        width: 80%;
+        gap: 50px;
+    }
+    .detail_categorie_btn{
+        margin: auto;
+        width: 80%;
+        display: flex;
+        font-size: 9px;
+        margin-right: 300px;
+    
+
+    }
+    .text1{margin-left: 350px;
+           font-size: 10px;
+           display: flex;
+    }
+    .bloc1{
+        font-size: 10px;
+    }
+    .detail-min{ font-size: 10px;
+             width: 80%;
+             display: flex;
+             gap: 5px;
+    }
+    .bloc_texte1{ 
+        font-size: 10px; 
+    } 
+    .bloc_texte{
+        font-size:10px;
+        align-items: center;
+        overflow: hidden;
+    }
+    .detail_form2{
+        font-size: 10px;
+        width: 70%;
+    }
+}
