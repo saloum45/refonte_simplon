@@ -10,12 +10,10 @@
     background-size: cover;
     background-position: 20%;
 }
-
 .entete_mariage {
     font-size: 120px;
     width: 100%;
 }
-
 .bloc1 {
     background-color: #F3E5E9;
     grid-template-columns: repeat(4, 1fr);
@@ -24,46 +22,35 @@
     margin-left: 20px;
     width: 90%;
     margin-bottom: 50px;
-    border: red solid;
-
 }
-
 .blanc {
     background-color: white;
     color: red;
-    border: red solid;
+    border: red ;
 }
-
 .rede {
     background-color: red;
     color: white;
     border: white solid;
 }
-
 .bloc1 button {
     width: 50%;
-    height: 50px;
-    border-radius: 10%;
-    margin-left: 75px;
+    height: 45px;
+    border-radius: 20%;
+    margin-left: 130px;
     margin-bottom: 20px;
-    border: red solid;
 }
-
 .bloc11 {
     justify-content: space-between;
     background-color: #F3E5E9;
     /* padding: 20px; */
     align-items: center;
     width: 100%;
-
-
-    /* text-align: center; */
 }
 
 .bloc_formation img {
     width: 100%;
 }
-
 .bloc_formation {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

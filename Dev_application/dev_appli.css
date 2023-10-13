@@ -21,7 +21,7 @@
     margin-left: 20px;
     width: 90%;
     margin-bottom: 50px;
-    border: red solid;
+    /* border: red solid; */
 
 }
 
@@ -39,11 +39,10 @@
 
 .bloc1 button {
     width: 50%;
-    height: 50px;
-    border-radius: 10%;
+    height: 45px;
+    border-radius: 20%;
     margin-left: 75px;
     margin-bottom: 20px;
-    border: red solid;
 }
 
 .bloc11 {
