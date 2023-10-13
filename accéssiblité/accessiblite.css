@@ -1,0 +1,25 @@
+/* Style par défaut pour les balises details */
+details {
+    cursor: pointer; /* Pour changer le curseur au survol */
+    background-color: grey;
+}
+summary{
+    background-color: grey;
+
+}
+
+/* Style pour l'icône de détail fermé */
+details:not([open]) > summary::after {
+    content: '\25B8'; /* Utilisez un autre caractère ou une image pour votre icône si vous le souhaitez */
+    display: inline-block;
+    margin-right: 5px;
+     float: right;
+}
+
+/* Style pour l'icône de détail ouvert */
+details[open] > summary::after {
+    content: '\25BE'; /* Utilisez un autre caractère ou une image pour votre icône si vous le souhaitez */
+    display: inline-block;
+    margin-right: 5px;
+    float: right;
+}
