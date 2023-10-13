@@ -150,6 +150,7 @@ text-align: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 80%;
     margin: 2% auto;
+    gap: 20px;
 }
 .container_candidater .candidater_carte .card{
    box-shadow: 2px 2px 4px gray;
