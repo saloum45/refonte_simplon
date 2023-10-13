@@ -64,6 +64,83 @@
     border-radius: 3px;
 
 }
+/* ****** dSalem****** */
+.btn-training1:hover{
+    background-color: var(--blanc);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 3px;
+    border: 2px solid var(--rouge);
+    transition: 1s;
+    scale: 1.1;
+    rotate: 10deg;
+
+}
+.btn-training1 a:hover{
+    color: var(--rouge);
+}
+.btn-training2:hover{
+    background-color: var(--blanc);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 3px;
+    border: 2px solid var(--rouge);
+    transition: 1s;
+    scale: 1.1;
+    rotate: 10deg;
+
+}
+.btn-training2 a:hover{
+    color: var(--rouge);
+}
+hr:hover{
+    animation-play-state: paused;
+}
+ hr:not(#surligne-botoom) {
+    animation-name: ref;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+   
+}
+
+   
+    
+    
+
+@keyframes ref{
+    from {
+      transform: translateX(0%);
+    }
+  
+    to {
+      transform: translateX(50%);
+    }
+}
+.body-grid-blog-img img {
+    width: 100%;
+    height: 250px;
+    transition: 1s ease-in-out;
+    transition-property: scale rotate;
+   
+}
+.body-grid-blog-img img:hover {
+    rotate: 10deg;
+    scale: 1.1;
+
+}
+.traning-description-content-img img:hover{
+    transition: 1s ease-in-out;
+    transition-property: scale rotate;
+    rotate: 10deg;
+    scale: 1.1;
+
+}
+/* ****** F-Salem****** */
 .btn-training2{
     margin-left: 10px;
 }
@@ -224,6 +301,12 @@
     border-radius: 50%;
      
 
+}
+.card-img-content img:hover{
+    transition: 1s ease-in-out;
+    transition-property: scale rotate;
+    rotate: 10deg;
+    scale: 1.1;
 }
 #card-traning-content-container{
    display: grid;
