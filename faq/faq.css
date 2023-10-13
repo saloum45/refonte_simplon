@@ -1,0 +1,150 @@
+.faq {
+    height: auto;
+    /* background-color: green; */
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-item {
+    height: 600px;
+    background-color: #F3E5E9;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    /* text-align: center; */
+
+    color: #CE0034;
+}
+
+.faq-item i {
+    font-size: 25px;
+}
+
+.faq-item:nth-child(1) {
+
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.faq-item:nth-child(1) span {
+    cursor: pointer;
+}
+
+.faq-item:nth-child(2) {
+
+    text-align: center;
+
+}
+
+.faq-item:nth-child(2) i {
+
+    font-size: 60px;
+
+}
+
+.faq-item:nth-child(2) .text {
+
+    color: black;
+    height: 400px;
+    overflow: scroll;
+    text-align: start;
+    margin-top: 30px;
+
+}
+.responsive-tab{
+    display: none;
+}
+
+/***** responsive *****/
+@media screen and (max-width:767px){
+    .faq {
+        height: auto;
+        /* background-color: green; */
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .faq-item {
+        height: 600px;
+        background-color: #F3E5E9;
+        width: 60%;
+        padding: 20px;
+        border-radius: 10px;
+        /* text-align: center; */
+    
+        color: #CE0034;
+    }
+    
+    .faq-item i {
+        font-size: 25px;
+    }
+    
+    .faq-item:nth-child(1) {
+        display: none;
+        /* position: relative; */
+        /* z-index: 2; */
+        /* margin-left: -200px; */
+    }
+
+    /* .tab-hide{
+        margin-left: 0;
+    }
+    .tab-show{
+        margin-left: 0;
+    } */
+    .faq-item:nth-child(1) span {
+        cursor: pointer;
+    }
+    
+    .faq-item:nth-child(2) {
+        width: 100%;
+    }
+    
+    .faq-item:nth-child(2) .text {
+    
+        color: black;
+        height: 400px;
+        overflow: scroll;
+        text-align: start;
+        margin-top: 30px;
+        
+    }
+
+    .responsive-tab{
+        display: block;
+        position: relative;
+        top: -500px;
+        width: 70%;
+        margin-left: -300px;
+        height: 0;
+        /* margin: 0 auto; */
+    }
+    .responsive-tab span{
+       cursor: pointer;
+    }
+    .responsive-tab .tab-back{
+        
+        padding: 10px;
+        border-radius: 20px;
+        background-color: rgba(196, 175, 175, 0.636);
+        backdrop-filter: blur(20px);
+       
+    }
+
+    .responsive-tab-show{
+        margin-left: 0px;
+        margin: 0 auto;
+    }
+    #tab{
+        cursor: pointer;
+    }
+}
+
+/* okay */
+/***** End responsive *****/
