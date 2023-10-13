@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+:root{
+    --rouge:#BE002F;
+    --blanc:#ffff;
+    --rose:#F3E5E9;
+    --noire:#00000000;
+
+}
+.container-content2-press-img {
+    background-color: black;
+}
+.container-content2-press-img img{
+    width: 100%;
+    height: 79vh;
+    opacity: 0.5;
+}
+/* .content1-fondation-press-img img {
+  
+} */
+#content-fondation-img{
+    /* border: 5px solid red; */
+    width: 400px !important;
+    height: 100% !important;
+}
+.content1-fondation-press-description h4{
+    padding-left: 30px;
+    margin-top: 40px;
+}
+.container-content2-press-description{
+    background-color: var(--rose);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 40px 10px;
+    opacity: 0.5;
+    position: relative;
+    top: -120px;
+}
+.container-content2-press-description h2{
+    text-align: center;
+    font-weight: bold;
+}
+.container-content2-press-description p{
+    text-align: center;
+    font-weight: bold;
+}
+.content1-fondation{
+    display: flex;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 3px rgb(102, 102, 102);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color: var(--rose);
+  
+ }
+ .container-content-press-section-cards{
+
+ }
+ .content1-fondation-press{
+    display: flex;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 3px rgb(102, 102, 102);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color: var(--rose);
+   
+ }
+
+ 
+ #content-fondation-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+ }
+ .content1-fondation-press-description p{
+    padding-left: 40px;
+    text-align: justify;
+ }
+ .content1-fondation-press-description-press h4{
+    padding-left: 40px;
+    text-align: justify;
+    padding-top: 50px;
+
+ }
+ .content1-fondation-press-description button{
+    background-color: var(--rouge);
+    border: none;
+    margin: 0 300px;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+}
+.content1-fondation-press-description button a{
+    text-decoration: none;
+    color: var(--blanc);
+    font-size: 15px;
+}
+#content1-fondation{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#ref-inclusion-press{
+border: 5px solid var(--rouge);
+width: 30%;
+
+
+}
+.inclusion-fondation-press{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+#ref-inclusion-press-titre5{
+    border: 3px solid var(--rouge);
+    width: 3%;
+
+}
+
+
+
+
+
+
+/* *****pagination******* */
+.pagination-content-container-press{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    height: 100px;
+    background-color: var(--blanc);
+    box-shadow: 1px 1px 5px rgb(177, 177, 177);
+    margin-top: 50px;
+    background-color: var(--rose);
+}
+.pagination-content-press{
+    border: 1px solid black;
+    width: 80px;
+    height: 50px;
+}
+#pagination-content-press ,#active-pagination-press{
+    display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   align-items: center;
+}
+#active-pagination-press{
+    background-color: var(--rouge);
+    color: var(--blanc);
+}
+#pagination-content-press i{
+    color: var(--rouge);
+}
+.content-temoignage{
+    text-align: center;
+    margin-top: 50px;
+}
+#content-temoignage {
+    width: 10%;
+    border: 3px solid var(--rouge);
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
