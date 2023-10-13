@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation salarie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../header_footer/header_footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- importation icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="formation_salarie.css">
+</head>
+<body>
+   <!-- ========== Start header ========== -->
+
+   <nav class="navbar navbar-expand-lg" id="nav">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index .html">
+            <img src="https://simplon.co/images/logo.svg" alt="logo">
+
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index .html">ACCUEIL</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        A PROPOS
+                    </a>
+                    <ul class="dropdown-menu" id="dropdown-menu">
+                        <li><a class="dropdown-item" href="../qui_sommes_nous/qui_sommes_nous.html">Qui sommes-nous</a></li>
+                        <li><a class="dropdown-item" href="../fabriques/fabrique.html">Notre reseau de fabrique</a></li>
+
+                        <li><a class="dropdown-item pt-0" href="../action/action.html">Nos actions pour un <br>numérique inclusif</a>
+                        </li>
+                        <li><a class="dropdown-item" href="../faq/faq.html">Anti-faq</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        NOS FORMATION
+                    </a>
+                    <ul class="dropdown-menu" id="dropdown-menu">
+                        <li><a class="dropdown-item" href="../infrastructure_CS/infrastructure_cs.html">Infrastructures et Cybersécurité</a></li>
+                        <li><a class="dropdown-item" href="../Dev_application/dev_appli.html">Développement d'application</a></li>
+
+                        <li><a class="dropdown-item" href="../Fondamentaux_numériques/fondat_numer.html">Fondamentaux numériques</a></li>
+                        <li><a class="dropdown-item" href="../gestion_PA/gestion_PA.html">Gestion de projet agile</a></li>
+                        <li><a class="dropdown-item" href="../Devops/devops.html">Cloud et Devops</a></li>
+
+                        <li><a class="dropdown-item" href="../data_intelligence_artificielle/dataIA.html">Data & intelligence artificielles</a></li>
+                        <li><a class="dropdown-item" href="../metaversXR/m_xr.html">Metaverse & XR</a></li>
+                        <li><a class="dropdown-item" href="../blockchain/blockchain.html">Blockchain</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        ALTERNANCE
+                    </a>
+                    <ul class="dropdown-menu" id="dropdown-menu">
+                        <li><a class="dropdown-item" href="../page_formation_alternance/page_formatio_alternance.html">Formation en alternance</a></li>
+                        <li><a class="dropdown-item" href="../page_recrutement_alternance/page_recrutement_alternance.html">Recruter en alternance</a></li>
+
+
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        CANDIDATS
+                    </a>
+                    <ul class="dropdown-menu" id="dropdown-menu">
+                        <li><a class="dropdown-item" href="../candidater/page_candidater.html">Candidater</a></li>
+                        <li><a class="dropdown-item" href="../page_vae/page_vae.html">Vae</a></li>
+
+                        <li><a class="dropdown-item" href="../femme/page_femme.html">Action femme</a></li>
+                        <li><a class="dropdown-item" href="../handicap/handicap.html">Hadicap</a></li>
+                        <li><a class="dropdown-item" href="../page_migration/page_migration.html">Migration</a></li>
+                        <li><a class="dropdown-item" href="../blockchain/blockchain.html">Blockchain</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        ENTREPRISE
+                    </a>
+                    <ul class="dropdown-menu" id="dropdown-menu">
+                        <li><a class="dropdown-item" href="">Formation salariés</a></li>
+                        <li><a class="dropdown-item" href="../page_collect_tva/page_collect_tva.html">Collecte tva 2023</a></li>
+
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="separation"></div>
+<!-- ========== End header ========== -->
+    <div>
+        <div class="recrutement-banier text-center text-white">
+            <div class="bg-black bg-opacity-75 h-100 ">
+               <h1 class=" fw-bold display-2 w-50 mx-auto p-5">Faites évoluer votre Société</h1>
+               <p class="fw-light w-25 mx-auto">Depuis plus de 10 ans, Simplon forme les talents de demain aux métiers tech. Découvrez l'alternance avec Simplon et recrutez le profil idéal dont vous avez besoin.</p>
+            </div>
+            <div>
+                <div class="containercicle_decouvert_talent">
+                  <div class="decouvert">
+                    <div class=" talent " >
+                        <i class="bi bi-people-fill" style="color: black; font-size: 40px;"></i>
+                        <h1 class="text-danger">13 millions</h1>
+                        <p class="text-black p-2">C'est le nombre de personnes touchées par l'illectronisme en France, soit 20 % de la population</p>
+                     </div>
+                    </div>
+                    <div class="decouvert">
+                    <div class=" talent">
+                        <i class="bi bi-code-square" style="color: black; font-size: 40px;"></i>
+                        <h1 class="text-danger">50%</h1>
+                        <p class="text-black p-2">C'est le nombre de métiers qui disparaîtront ou seront radicalement transformés d'ici 2030</p>
+                     </div>
+                    </div>
+                    <div class="decouvert">
+                    <div class=" talent ">
+                        <i class="bi bi-building-fill " style="color: black; font-size: 40px;"></i>
+                         <h1 class="text-danger">43%</h1>
+                        <p class="text-black p-2">C'est le nombre de salarié.es en demande de formation professionnelle qui souhaitent changer de métier</p>
+                     </div>
+                    </div>
+                     <!-- <div class="decouvert">
+                     <div class=" talent ">
+                      <i class="fa-solid fa-map-location-dot p-2" style="color: #000000; font-size: 40px;"></i>
+                         <h1 class="text-danger">1250</h1>
+                        <p class="text-black">entreprises partenaires</p>
+                     </div>
+                    </div> -->
+                   </div>   
+            </div>
+        </div>
+        <div class="p-5">
+            <div class="p-5">
+                <div class="container p-5">
+                    <!-- <div class="row">
+                        <div class="col">1</div>
+                        <div class="col">2</div>
+                        <div class="col">3</div>
+                   </div> -->
+                   <div class="row m-3">
+                    <div class="col">
+                        <div class="card border-0">
+                            <div class="card-header bg-white border-0 fw-bold">Former ses salariés
+                            </div>
+                            <div class="card-body">
+                                <img src="https://avec.simplon.co/hubfs/Photos%20Free%20apprenants/11.png" alt="" class="w-100">
+                                <hr class="w-25 text-danger fw-bolder">
+                                <p class="fw-bold h6 mb-sm-4 w-75 ">Faites le choix de vous former chez nous
+                                </p>
+                                <p>Pour démystifier le numérique par des ateliers de mise en pratique (#initiation), maintenir l’employabilité de vos salarié (#upskilling) ou préparer les transitions vers le numérique (#reskilling).Nous proposons des formation sur 5 thématiques clés. La durée de nos formations varie de 2h à 10 jours pour les offres courtes et jusqu’à 9 mois pour les plus longues. </p>
+                                <button class="btn-outline-secondary m-sm-2  w-100 bg-danger text-white border-0 rounded-bottom-1">Decouvrez l'offre de SIMPLON CORP</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0">
+                            <div class="card-header bg-white border-0 fw-bold">Lean start-up
+                            </div>
+                            <div class="card-body">
+                                <img src="https://avec.simplon.co/hubfs/Photos%20Free%20apprenants/11.png" alt="" class="w-100">
+                                <hr class="w-25 text-danger fw-bolder">
+                                <p class="fw-bold h6 mb-sm-4 w-75 ">Privilégiez le sur-mesure !
+                                </p>
+                                <p>Chez Simplon, nous construisons avec vous les programmes de formation afin qu’ils répondent au mieux aux besoins de vos salarié.es. Encore hésitant.e sur vos besoins et les formations les plus impactantes ? Nous prenons le temps de vous accompagner dans cette réflexion.
+                                Adepte de la méthode lean start-up, nous testons les formations avec des groupes d’utilisateurs pilotes et les adaptons avant leur déploiement. 
+                                </p>
+                                <button class="btn-outline-secondary m-sm-2  w-100 bg-danger text-white border-0 rounded-bottom-1">Discuter-en</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0">
+                            <div class="card-header bg-white border-0 fw-bold">Pédagogie active
+                            </div>
+                            <div class="card-body">
+                                <img src="https://avec.simplon.co/hubfs/Photos%20Free%20apprenants/11.png" alt="" class="w-100">
+                                <hr class="w-25 text-danger fw-bolder">
+                                <p class="fw-bold h6 mx-auto mb-sm-4 w-75 ">Faites le choix de la pédagogie active ! 
+                                </p>
+                                <p>Chez Simplon, nous faisons de la pédagogie active, méthode la plus efficace pour rendre vos salarié.es compétent.es en situation de travail. Le but est qu'ils ou elles puissent s'immerger dans des situations similaires au monde professionnel, tout en étant adossés par des formatrices et formateurs issus du monde pro pour lequel on les forme.</p>
+                                <button class="btn-outline-secondary m-sm-2  w-100 bg-danger text-white border-0 rounded-bottom-1">Je postule</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div> 
+            </div>
+        </div>
+        <div class="container ">
+            <h1 class="text-center">Nos formation en INITIATION ,UPSKILLING , RESKILLING </h1>
+            <div class="row mx-auto">
+                <div class="col">
+                    <div class="card p-1">
+                        <div>
+                            <img src="../page_recrutement_alternance/image/lean_startup.jpg" alt="" width="100%">
+                        </div>
+                        <div>
+                            <h1>Assurez la transitionprofessionnelle et la mobilité #RESKILLING</h1>
+                            <p>Simplon</p>
+                            <p>Le Groupe La Poste, pionnier de programme RH ambitieux de reconversion
+                             Au démarrage de Corp, il y avait le Groupe La Poste ! Ce sont eux qui nous ont soufflé cette idée d’accompagner les salarié.es en utilisant les mêmes recettes que ce que nous faisions avec les demandeur·euses d’emploi.
+                             Depuis mai 2016, nous avons signé un partenariat pour “faire La Poste de demain avec les postiers d’aujourd’hui” et former 50 élèves postiers au métier de concepteur-développeur. À ce titre, la Direction des ressources humaines et la GPEC ont lancé 4 promotions d’élèves postiers sourcés.</p>
+                        </div>
+                        <button class="btn-outline-secondary  w-100 bg-danger text-white border-0 rounded-bottom-1">Nos offre en Reskilling</button>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="card p-1">
+                        <div>
+                            <img src="../page_recrutement_alternance/image/Simplonnienne-Lyon3.jpeg" alt="" width="100%">
+                        </div>
+                        <div>
+                            <h1>Démystifiez le numérique par les ateliers de mise en pratique #INITIATION</h1>
+                            <p>Simplon</p>
+                            <p>200, c’est le nombre de managers de L’Oréal qui ont suivi une LEX Simplon
+                                LEX, c’est le petit diminutif pour Learning EXpedition, soit 3 jours d’immersion dans l’écosystème Tech. Au programme : 
+                                démystifier le numérique au sein de notre fablab en mettant les mains dans la Tech (Jour 1)
+                                réfléchir aux synergies possibles avec des startups au sein de station F (Jour 2)
+                                découvrir des solutions concrètes et innovantes en entreprise et se mettre en action (Jour 3)  
+                                Une occasion rêvée pour communiquer notre vision d’un numérique inclusif auprès des décideurs de L’Oréal et leur insuffler l’idée que l’innovation peut venir de tout le monde (#intrapreneuriatpourtous).</p>
+                        </div>
+                        <button class="btn-outline-secondary   w-100 bg-danger text-white border-0 rounded-bottom-1">Vous voulez en savoir plus</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container-fluid p-5">
+            <div class="card mb-3 w-100" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <h1 class="card-title">Maintenez l'employabilité de tout.es vos salarié.es #UPSKILLING</h1>
+                   <p class="card-text text-danger">L'entreprise Suez forme ses salarié.es “non connectés” aux b.a.-ba du numérique</p>
+                   <p class="card-text"><small class="text-black">Depuis sa création, Simplon agit pour que la transformation numérique “ne laisse personne au bord du chemin”. Il nous apparaît ainsi nécessaire d'agir avec tous les salariés de l'entreprise pour donner une chance à cette transformation d'être réellement inclusive.
+
+                    À ce titre, Suez a déployé un programme ambitieux de formation à destination de ses agents les plus éloignés du numérique (les conducteurs de camions, les rippeurs, les trieurs,...). Au programme, former aux compétences numériques fondamentales (ex. prise en main d’un ordinateur, utilisation d’une boîte mail, navigation sur le web,…).</small></p> 
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                        <img src="../page_recrutement_alternance/image/image_tecn.jpg" class="img-fluid rounded-start w-100" alt="..." >
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    <div>
+      <!-- ========== Start footer ========== -->
+      <footer>
+        <div class="footer-items">
+            <div class="item">
+                <img src="https://simplon.co/images/logo.svg" alt="logo">
+                <div>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                </div>
+                <div>
+                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-tiktok"></i>
+                    <i class="bi bi-youtube"></i>
+                </div>
+            </div>
+
+            <div class="item">
+                <h3>Liens intéressants</h3>
+                <hr>
+
+                <div class="footer-links">
+
+                    <div class="footer-link">
+                        <a href=""><i class="bi bi-link"></i> Devenir formateur</a>
+                        <a href=""><i class="bi bi-link"></i> Rejoindre nos équipes</a>
+                        <a href=""><i class="bi bi-link"></i> Simplon foundation</a>
+                        <a href=""><i class="bi bi-link"></i> Mentions légales</a>
+                        <a href=""><i class="bi bi-link"></i> Accéssibilité</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href=""><i class="bi bi-link"></i> Contact</a>
+                        <a href=""><i class="bi bi-link"></i> Blog</a>
+                        <a href=""><i class="bi bi-link"></i> Presse</a>
+                        <a href=""><i class="bi bi-link"></i> Plan site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <h3>Restez informés</h3>
+                <hr>
+                <div class="footer-newsletter">
+                    <span>Inscrivez-vous à la newsletter</span>
+                    <input type="text" placeholder="ENTRER VOTRE MAIL">
+                    <button>S'inscrire</button>
+                </div>
+            </div>
+        </div>
+        <p class="text-center text-white mt-3">©COPYRIGHT @SIMPLON2023</p>
+    </footer>
+    <!-- ========== End footer ========== -->
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+            
+</body>
+</html>
