@@ -1,8 +1,82 @@
 .collect-tva-banier{
-    background-image: url(../page_recrutement_alternance/image/nos_actions-numerique-inclusif___medialibrary_original_570_379.jpg);
+    background-image: url(../page_recrutement_alternance/image/pédagogie_active.jpg);
     background-repeat: no-repeat;
     width: 100%; 
     height: 600px;
     background-size: cover;
 
 }
+@media screen and (max-width:768px){
+    .collect-tva-banier{
+    width: 100%; 
+    height: 300px;
+    background-size: cover;
+}
+.collect-tva-banier h1{
+    font-size: 12px;
+}
+.collect-tva-banier p{
+    font-size: 8px;
+    /* width: 100%; */
+}
+.collect-tva-premier-partie{
+ width: 100%;
+}
+.collect-tva-premier-partie .collect-tva-premier-partie-carre{
+    /* background-color: rgb(239, 225, 225); */
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5%;
+    width: 100%;
+
+}
+.diminuer{
+    font-size: 12px;
+}
+.diminuer i {
+    font-size: 20px;
+}
+.collect-tva-premier-partie .collect-tva-premier-partie-carre .carte-un-partie-tva{
+    width: 100%;
+
+}
+.etape{
+    text-align: center;
+}
+.button-tva{
+    font-size: 12px;
+}
+}
+@media screen and (max-width:480px){ 
+    .collect-tva-banier{
+        width: 100%; 
+        height: 300px;
+        background-size: cover;
+    }
+    .collect-tva-banier h1{
+        font-size: 10px;
+    }
+    .collect-tva-banier p{
+        font-size: 7px;
+        /* width: 100%; */
+    }
+    .collect-tva-premier-partie{
+        width: 100%;
+    }
+       .collect-tva-premier-partie .collect-tva-premier-partie-carre .carte-un-partie-tva{
+        width: 100%;
+    
+    }
+    .collect-tva-premier-partie-carre h4{
+        font-size: 12px;
+    }
+    .etape{
+        text-align: center;
+    }
+    .button-tva{
+        font-size: 8px;
+    }
+    .diminuer{
+        font-size: 8px;
+    }
+} 
