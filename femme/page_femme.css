@@ -6,23 +6,49 @@
 
 /* ***************conataine femm r**************** */
 .container_femme .femme_baniere{
-background-image: url('../images_candidater/handicap.avif');
-background-color: #000;
-background-size: cover;
-background-repeat: no-repeat;
-/* background-attachment: fixed; */
-/* filter: blur(2px); */
-height:600px;
+    background-image: url('../images_candidater/vae1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
 width: 100%;
 text-align: center;
 }
-.container_femme .femme_banniere_text{
+.femme_baniere .hover_femme{
+    background: #0000006c;
+    background-size: cover;
+    height:100%;
+    width: 100%
+}
+.femme_baniere .hover_femme span{
+    position: relative;
+    top: 30%;
+    color: white;
+}
+.femme_baniere .hover_femme span h1{
+    font-weight: 700;
+   font-size: 32px;
+}
+.femme_baniere .hover_femme span button{
+    color: white;
+    background: var(--color-primaire);
+    width: 15%;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.femme_baniere .hover_femme span button a{
+    text-decoration: none;
+    color: white;
+}
+/* .container_femme .femme_banniere_text{
     color: rgb(9, 9, 9);
-    /* margin-top: 5%; */
+    margin-top: 5%;
     font-weight: 700;
     position: relative;
     top: 20px;
-}
+} */
 .containercicle_femme{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -173,7 +199,107 @@ margin: 0 auto;}
     background-color: var(--color-primaire);
 }
 /* ***************talent femmer**************** */
-/**************************************** slide **************************/
+/**************************************** responsive **************************/
+@media screen and (max-width:900px) {
+    .containercicle_femme{
+        margin-left: 25% !important;
+        width: 50% !important;
 
-/**************************************** slide **************************/
+       
+    }
+    .circle1{
+        width: 150px !important;
+        height:150px !important;
+    }
+    #container_rectangle1_femme {
+    margin-top: 18%;
+    width: 80%;
+    margin-left: 10%;
+    }
+    .content_middle .talent_container{
+    flex-direction: column;
+    /* background-color: green; */
+    width: 83%;
+    }
+    
+    .content_middle .talent_container .talent_image{
+    /* border:1px solid aqua; */
+    width: 100%;
+    
+    }
+    .content_middle .talent_container .talent_text{
+    
+    width: 100%;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+    
+    }
+    .content_middle .talent_container .talent_text h1{
+      /* background-color: yellow; */
+      text-align: center;
+    
+    }
+    .talent_container_tech{
+        flex-direction: column;
+        margin-bottom: 80%;
+        font-size: 16px !important;
+    }
+    .talent_container_tech .talent_tech1 img{
+       
+        width: 100%;
+    }
+    .talent_container_tech .talent_tech2{
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 10%;
+        padding: 0;
+        
+    }
+    .talent_container_tech .talent_tech2 h1{
+        text-align: center;
+        }
+        .container_20{
+            height: 100px !important;
+            margin-bottom: 20%;
+        }
+}
+@media screen and (max-width:767px){
+    .containercicle_femme{
+       display: flex;
+       flex-direction: column;
+       gap: 10px;
+    }
+    .circle1{
+        width: 100px !important;
+        height:100px !important;
+}
+.circle1 h1{
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: -10%;
+}
+.circle1 p {
+    
+    font-size: 10px;
+    margin-top: -10%;
+}
+.circle1 {
+    font-size: 12px;
+  
+}
+.container_rectangle1_femme{
+    display: flex !important;
+    flex-direction: column !important;
+    background-color: green;
+    width: 80%;
+    gap: 20px !important;
+    margin-top: 30% !important;
+    }
+    #dab{
+        width: 200px !important;
+    }
 
+    }
+/**************************************** responsive **************************/

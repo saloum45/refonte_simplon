@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* font-family: 'nunito'; */
+    font-family: 'verdana'!important;
 }
 body{
     background-color: rgb(253, 248, 248);
@@ -11,37 +11,61 @@ body{
     --color-primaire:#CE0034;
     --color-secondaire:#ce0034d2;
 }
+/***** header *****/
+
+
+
+#nav {
+    background-color: #F3E5E9;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+}
 
 
 
 .container_candidater {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     width: 100%;
     height: auto;
     margin: 0 auto;
 }
-.container_candidater .candidater_baniere{
-/* border: 1px solid red; */
-background-image: url('../images_candidater/handicap.avif');
-background-color: #000;
-background-size: cover;
-background-repeat: no-repeat;
-/* filter: blur(2px); */
-height:500px;
+.banniere_candidat{
+    background: url('../images_candidater/course3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
 width: 100%;
 text-align: center;
+}
+.banniere_candidat .hover_candidat{
+    background: #0000006c;
+    background-size: cover;
+    height:100%;
+    width: 100%
+}
+.banniere_candidat .hover_candidat span{
+    position: relative;
+    top: 30%;
+    color: white;
 
 }
-
+.banniere_candidat .hover_candidat span h1{
+    
+    font-weight: 700;
+    font-size: 32px;
+}
+.banniere_candidat .hover_candidat span button{
+    color: white;
+    background: var(--color-primaire);
+    width: 15%;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 24px;
+}
 .container_candidater .candidater_baniere .candidater_banniere_text{
     color: rgb(0, 0, 0);
-    /* margin-top: 15%; */
-}
-
-/* faire descendre le text de la banniere */
-.candidater_banniere_text h1{
-    /* margin-top: 200px; */
-    padding-top: 200px;
+    margin-top: 15%;
 }
 .container_candidater .candidater_search{
     /* border: 1px solid blue; */
@@ -99,17 +123,18 @@ text-align: center;
 }
 .container_candidater .candidater_categorie .text1{
     /* background-color: red; */
-    width: 50%;
+    width:40%;
     height: auto;
     font-weight: 700;
     color: #CE0034;
+    font-size: 28px;
     
 
  
 }
 .container_candidater .candidater_categorie .candidater_categorie_btn{
     background-color: var(--color-secondaire);
-    width: 60%;
+    width: 100%;
     height: 80%;
     display: flex;
     margin-right: 2%;
@@ -150,7 +175,6 @@ text-align: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 80%;
     margin: 2% auto;
-    gap: 20px;
 }
 .container_candidater .candidater_carte .card{
    box-shadow: 2px 2px 4px gray;
@@ -170,21 +194,22 @@ text-align: center;
 .container_candidater .candidater_carte .card-body .inf1 {
    width: 50%;
    height: auto;
-   padding: 10px 10px 10px 10px;
+   /* padding: 10px 10px 10px 10px; */
+   border-right: 2px solid #000;
 
 }
 .container_candidater .candidater_carte .card-body .inf2 {
-   width: 50%;
+   width: 60%;
    height: auto;
-   border-left: 2px solid #000;
-   padding: 5px 0 10px 0;
+/* background-color: aqua; */
+   /* padding: 5px 0 10px 0; */
 
 
 }
 
 .container_candidater .candidater_carte .inf .inf2 ul li{
    /* display: flex; */
-   gap: 5%;
+   gap: 3%;
    font-size: 10px;
 list-style:none ;
 }
@@ -193,6 +218,7 @@ list-style:none ;
   display: grid;
 grid-template-columns: 1fr 1fr;
 gap: 10%;
+margin-top: -8%;
 
 
 }
@@ -204,7 +230,7 @@ border: 0;
 .container_candidater .candidater_cours{
     display:grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr ;
-   margin-left: 23%;
+   margin-left: 20%;
    margin-top: 4%;
    background-color: rgb(128, 133, 133);
 
@@ -218,16 +244,78 @@ border: 0;
     margin: auto auto;
     /* border: 1px solid #000; */
     height: 80px;
-    width: 80px;
+    width: 70px;
 }
-
-
-
 /* -------------btn categories ******* */
 
-/* *******************footer******************** */
-
-
-
-
-
+@media screen and (max-width:900px) {
+    .container_candidater .candidater_carte {
+        display: flex !important;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        z-index: 1;
+        margin-top: 20%;
+       
+    }
+    .container_candidater .candidater_carte .card{
+        
+       width: 80%;
+       margin: 0 auto;
+    }
+    .container_candidater .candidater_categorie 
+   {
+    display: flex;
+    flex-direction: column;
+    }
+    .candidater_categorie_btn button{
+        display: flex;
+       margin: 0 auto;
+      padding: 10px 15px;
+        width: 150px !important;
+        height: 40px !important;
+        background-color: #CE0034 !important;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .candidater_btn1{
+        width: 50% !important;
+        height: 50px !important;
+        margin: 0;
+    }
+    .candidater_categorie_btn{
+        display: flex;
+        width: 50%;
+        background-color:transparent !important;
+        margin-left: -37px;
+    }
+    
+ .candidater_categorie .candidater_categorie_btn button:nth-child(1){
+    display: none;
+ }
+    .candidater_categorie .text1{
+       background: #000;
+       width: 200px;
+    }
+    .candidater_search{
+       background-color: var(--color-primaire) !important;
+       padding: 5px 5px;
+       /* margin-left: 25px; */
+       width: 100%;
+    }
+    #btnsearch1{
+        width: 30%;
+        border-radius: 0;
+        height: 80%;
+        background: #000;
+        color: #fff;
+        margin-left: -5px;
+        margin-top: 8px;
+      
+    }
+    #searchc{
+        width: 60%;
+        border-radius: 0;
+        margin-left:30px;
+    }
+}

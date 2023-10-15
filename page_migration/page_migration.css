@@ -86,7 +86,10 @@
    #general_migration{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
-padding: 2% 2%; 
+padding: 2% 2%;
+background-color:var(--color-primaire); 
+width: 80%;
+ margin: 0 auto; 
  }
  /* ***************talent tech**************** */
 .team_tech0{
@@ -135,6 +138,46 @@ padding: 2% 2%;
     margin-top: -2%;
     border-radius: 5px;
 }
-/* **** */
+/* **** responsive*****************/
+@media screen and (max-width:900px){
+    #general_migration{
+       background-color:var(--color-primaire);
+       display: flex !important;
+       flex-direction: column !important;
+       box-sizing: border-box;
+       height:100%;
+     }
+     
+   .team_tech0{
+    display: flex;
+    flex-direction: column;
+   }
+   
+}
+@media screen and (max-width:500px){
+    #general_migration{
+      margin: 0 auto;
+     }
+   .team_tech0{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+   }
+   .team_container_tech{
+    display: flex !important;
+    flex-direction: column;
+   }
+   .team_tech1{
+    width: 100%;
+   }
+   .team_tech1 img{
+    width: 100%;
+   }
+   .team_tech2{
+    font-size: 16px;
+   }
+}
     
    
