@@ -2,7 +2,7 @@
 
 
 .banner {
-    height: 400px;
+    height: 600px;
     width: 100%;
     background-color: black;
 }
@@ -16,7 +16,7 @@
 .banner .banner-text {
     position: relative;
     color: white;
-    top: -350px;
+    top: -450px;
     padding-left: 50px;
 }
 
@@ -45,7 +45,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    margin-top: -300px;
+    margin-top: -400px;
     color: white;
 }
 

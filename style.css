@@ -1,5 +1,5 @@
 .banner {
-  height: 400px;
+  height: 600px;
   width: 100%;
   background-color: black;
 }
@@ -13,7 +13,7 @@
 .banner .banner-text {
   position: relative;
   color: white;
-  top: -350px;
+  top: -450px;
   padding-left: 50px;
 }
 
@@ -219,10 +219,12 @@
 @media screen and (max-width:767px) {
 
   /* section banniere */
+ 
+  
   .banner .banner-text {
     position: relative;
     color: white;
-    top: -350px;
+    top: -380px;
     padding-left: 0;
     text-align: center;
   }
