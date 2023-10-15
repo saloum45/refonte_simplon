@@ -86,7 +86,6 @@
     gap: 50% ;
     }
 .carte-profil-decouvert-talent{
-    background-color: blue;
     margin-top: 30%;
     }
 .recrutement-banier{
@@ -120,39 +119,3 @@
         margin: 0 auto;
     }
 }
-
-/* @media screen and (max-width:1100px) {
-.recrutement-banier {
-    background-image:url(../page_recrutement_alternance/image/pédagogie_active.jpg);
-    background-repeat: no-repeat;
-    width: 100%; 
-    height: 300px;
-    background-size: cover;
-    }
-.recrutement-banier h1{
-        font-size: 15px;
-    }
-.recrutement-banier p{
-        font-size: 10px;
-    }
-.containercicle_decouvert_talent{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: 30%;
-        height: auto;
-        margin: auto;
-        text-align: center;
-        gap: 45%;      
-}
-.carte-profil-decouvert-talent{
-    padding: 30rem;
-    
-}
-.carte-profil-decouvert-talent-row{
-    display: flex;
-    /* grid-template-columns: 1fr;
-    width: 100%;
-    margin: 0 auto; */
-    /* flex-direction: column;
-}
-}    */
