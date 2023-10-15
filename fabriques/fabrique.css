@@ -1,26 +1,4 @@
-.banner {
-    height: 600px;
-    width: 100%;
-    background-color: black;
-}
 
-.banner img {
-    height: 100%;
-    width: 100%;
-    opacity: 0.3;
-}
-
-.banner .banner-text {
-    position: relative;
-    color: white;
-    top: -350px;
-    padding-left: 50px;
-}
-
-.banner .banner-text p {
-    width: 50%;
-    margin-top: 40px;
-}
 
 .banner .banner-text button {
     width: 30%;

@@ -15,11 +15,15 @@
     color: white;
     top: -350px;
     padding-left: 50px;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
 }
 
 .banner .banner-text p {
     width: 50%;
     margin-top: 40px;
+    margin: 0 auto;
 }
 
 .banner .banner-text button {
