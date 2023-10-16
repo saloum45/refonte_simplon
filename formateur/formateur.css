@@ -245,9 +245,21 @@ hr:hover{
     padding-bottom: 30px; 
     
 }
+/* .traning-description-content{
+    /* display: flex;
+    justify-content: space-around; 
+
+} */
+.traning-description-content-paragraph-secton2 h1{
+    text-align: justify;
+
+}
 .traning-description-content{
-    display: flex;
-    justify-content: space-around;
+    margin: 70px 200px;
+}
+.traning-description-content-img{
+    float: left;
+    margin-right: 15px;
 }
 .traning-description-content-paragraph-secton2{
     margin-left: 20px;
@@ -324,6 +336,8 @@ hr:hover{
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
+    
+    height: 66vh;
 }
 .section-3-traning-content{
     background-color: var(--rose);
@@ -350,6 +364,7 @@ hr:hover{
     
    
 }
+
 .btn-btn-formations:hover{
     background-color: var(--rouge);
 }
@@ -411,6 +426,9 @@ hr:hover{
     margin-left: 10px;
     
    
+}
+#cercle-icons-traning{
+    margin-right: 10px;
 }
 .carte-section5-vd video{
     width: 100%;
@@ -523,6 +541,15 @@ width: 400px;
        
         
     }
+    .carte-section5 {
+        display: block;
+    }
+    .carte-section5-img img{
+        width: 100%;
+    }
+    .btn-btn-formations1{
+        width: 100%;
+    }
     .btn-training1,.btn-training2{
         background-color: black;
         padding-top: 10px;
@@ -616,6 +643,40 @@ width: 400px;
         border: 20px  solid var(--rose);
        
     }
+    .traning-description-content-img {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 180px;
+     }
+}
+@media screen and (max-width:1186px) {
+    .traning-description-content-img img {
+        width: 100%;
+        height: 300px;
+        margin-left: 0;
+        margin-right: 0;
+     }
+    .traning-description-content-img {
+        width: 500px;
+        height: 300px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 0;
+     }
+     .contaner-cards-section4{
+        display: block;
+     }
+     .btn-btn-formations{
+        width: 100%;
+     }
+     /* .contaner-cards-section4-left img{
+        width: 70%;
+        height: 70%;
+     } */
+   .traning-description-content-paragraph-secton2 p{
+    width: 100%;
+   }
+    
 }
 @media screen and (max-width:1050px) {
     .training-content-right-circle-red img{
@@ -632,8 +693,45 @@ width: 400px;
         border: 10px  solid rgba(255, 255, 255, 0.344);
     
     }
+    .traning-description-content-img img {
+        width: 100%;
+        height: 400px;
+        margin-left: 0;
+        margin-right: 0;
+     }
+    .traning-description-content-img {
+        width: 500px;
+        height: 400px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 0;
+     }
+   .traning-description-content-paragraph-secton2 p{
+    width: 100%;
+   }
     
 }
+@media  screen  and (max-width:1053px) {
+    #card-traning-content-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        justify-items: center;
+        margin: 0 100px;
+     }
+     .carte-section5{
+        display: block;
+        padding-top: 20px;
+    }
+    .carte-section5-img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    
+}
+
 @media screen and (max-width:991px) {
     .training-content-right-circle-red img{
         width: 400px;
@@ -691,6 +789,7 @@ width: 400px;
         border: 10px  solid rgba(255, 255, 255, 0.344);
     
     }
+    
     .training-content-right-circle-bootom{
         z-index: 10;
         top: -170px;
@@ -719,9 +818,268 @@ width: 400px;
     }
 }
 
+@media screen and (max-width:846px) {
+    .traning-description-content-img img {
+        width: 100%;
+        height: 200px;
+        margin-left: 0;
+        margin-right: 0;
+     }
+    .traning-description-content-img {
+        width: 500px;
+        height: 200px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 0;
+     }
+     
+   .traning-description-content-paragraph-secton2 p{
+    width: 100%;
+   }
+   /* .traning-description-content-paragraph-secton2 h1{
+    width: 100%;
+   } */
+   .traning-description-content-img {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 180px;
+ }
+    
+}
+@media screen and (max-width:822px) {
+    .training-content-right-circle-red {
+        margin-left: 0;
+    }
+    .training-content-right-circle-red img{
+        width: 200px;
+        height: 200px;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+    }
+    .training-content-right-circle-bootom img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+        border: 10px  solid rgba(255, 255, 255, 0.344);
+    
+    }
+    .training-content-right-circle-bootom {
+        z-index: 10;
+        top: -100px;
+        position: relative;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 10px  solid var(--rose);
+       
+    }
+   
+    .training-content-right-allera{
+    
+        /* margin-top: 50px; */
+        margin-top:60px;
+        background-color: var(--rose);
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* position: absolute; */
+         z-index: none;
+         width: 90%;
+      
+        
+    }
+    .training-content-rightright-circle-blanc{
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-left: 2px solid var(--blanc);
+        border-bottom: 2px solid var(--blanc);
+    
+    }
+    .training-content-right-circle-red{
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-left: 10px solid var(--rouge);
+        border-bottom: 10px solid var(--rouge);
+    }
+    #cercle-icons-traning-para{
+        margin-left: 0;
+    }
+    #cercle-icons-traning{
+        margin-right: 10px;
+    }
+    
+}
+@media screen and (max-width:822px) {
+    .training-content-right-circle-red {
+        margin-left: 0;
+    }
+    .training-content-right-circle-red img{
+        width: 200px;
+        height: 200px;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+    }
+    .training-content-right-circle-bootom img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+        border: 10px  solid rgba(255, 255, 255, 0.344);
+    
+    }
+    .training-content-right-circle-bootom {
+        z-index: 10;
+        top: -100px;
+        position: relative;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 10px  solid var(--rose);
+       
+    }
+   
+    .training-content-right-allera{
+    
+        /* margin-top: 50px; */
+        margin-top:60px;
+        background-color: var(--rose);
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* position: absolute; */
+         z-index: none;
+         width: 90%;
+      
+        
+    }
+    .training-content-rightright-circle-blanc{
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-left: 2px solid var(--blanc);
+        border-bottom: 2px solid var(--blanc);
+    
+    }
+    .training-content-right-circle-red{
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-left: 10px solid var(--rouge);
+        border-bottom: 10px solid var(--rouge);
+    }
+    #cercle-icons-traning-para{
+        margin-left: 0;
+    }
+    #cercle-icons-traning{
+        margin-right: 10px;
+    }
+    .avantages-content-titre{
+        font-size: 20px;
+    }
+    
+   
+    
+}
+@media screen  and (max-width:809px) {
+    #card-traning-content-container{
+       display: block !important;
+     }
+     .card1-content-container{
+        width: 100%;
+        margin-top: 20px;
+     }
+
+    
+}
+    
 
 
 
+
+
+@media screen and (max-width:769px) {
+  
+
+    .traning-description-content-img img {
+     width: 100%;
+     height: 280px;
+     margin-left: 0;
+     margin-right: 0;
+  }
+ .traning-description-content-img {
+     width: 500px;
+     height: 280px;
+     margin-left: 0;
+     margin-right: 0;
+     padding-right: 180px;
+  }
+ .traning-description-content-paragraph-secton2 p{
+ width: 100%;
+ text-align: center;
+ }
+ .traning-description-content-paragraph-secton2 h1
+ {
+ text-align: center;
+ }
+ .section-2-traning-content{
+ display: block;
+ }
+     
+ }
+@media screen and (max-width:473px) {
+    .traning-description-content-img img {
+        width: 500px;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+     }
+    .traning-description-content-img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 0;
+     }
+   .traning-description-content-paragraph-secton2 p{
+    width: 100%;
+   }
+   .traning-description-content-paragraph-secton2 h1{
+    /* width: 50%; */
+    font-size: 20px;
+   }
+    
+}
+
+@media screen and (max-width:547px) {
+    .traning-description-content-img img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+     }
+    .traning-description-content-img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 0;
+     }
+   .traning-description-content-paragraph-secton2 p{
+    width: 100%;
+   }
+   .traning-description-content-paragraph-secton2 h1{
+    /* width: 50%; */
+    font-size: 20px;
+   }
+    
+}
 
 @media screen and (max-width:763px) {
     .training-content-right-circle-red img{
@@ -1048,12 +1406,41 @@ width: 400px;
 
     
 }
+/* ici */
+@media screen and (max-width:328px) {
+    .modalites-section4-training{
+        margin-top: 90px;
+    }
+    .btn-btn-formations{
+        margin-top: 30px;
+        padding: 30px  10px;
+        height: 50%;
+
+    }
+    .btn-btn-formations a{
+        margin-top: 0;
+        margin-bottom: 20;
+        font-size: 10px;
+    }
+   
+    #content-training-text{
+        margin-bottom: 40px;
+    }
+    
+}
 @media screen and (max-width:448px) {
     .training-content-right-circle-red img{
         width: 100px;
         height: 100px;
         border-bottom-left-radius: 50%;
         border-top-left-radius: 50%;
+    }
+    .modalites-section4-training{
+        margin-top: 90px;
+    }
+    .btn-btn-formations{
+        margin-top: 10px;
+
     }
     .training-content-right-circle-bootom img{
         border-radius: 50%;
@@ -1074,22 +1461,27 @@ width: 400px;
         border: 20px  solid var(--rose);
        
     }
+    .btns-training-right a{
+        font-size: 10px;
+    }
+    .btn-training2 a{
+        font-size: 10px;
+
+    }
     .flexiblites-content{
         display: block;
         justify-content: space-between;
     }
     .training-content-right-allera{
-    
-        /* margin-top: 50px; */
-        /* margin-top:10px; */
         background-color: var(--rose);
         padding-bottom: 0px;
         padding-top: 0px;
         padding-left: 30px;
-        padding-right: 30px;
-        /* position: absolute; */
+        /* padding-right: 30px; */
          z-index: none;
-         width: 90%;
+         width: 82.5%;
+         margin-right: 40px;
+         margin-left: 0px;
       
         
     }
@@ -1115,6 +1507,51 @@ width: 400px;
     border-radius: 50%;
     border: 10px  solid var(--rose);
    
+}
+.traning-description-content-img img {
+    width: 100px;
+    height: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+   
+  
+ }
+.traning-description-content-img {
+    width: 100px;
+    height: 100px;
+    margin-left: 0;
+    /* margin-right: 1000px !important; */
+    padding: 0 0;
+    /* border: 3px solid red; */
+    display: flex;
+    place-content: center;
+    margin-right: 400px !important;
+    padding-right: 150px;
+
+   
+ }
+ 
+.traning-description-content-paragraph-secton2 p{
+width: 100%;
+display: flex;
+place-content: center;
+}
+.traning-description-content-paragraph-secton2 h1{
+width: 100%;
+display: flex;
+place-content: center;
+font-weight: bold;
+margin-top: 130px;
+}
+ .traning-description-content-paragraph-secton2 {
+    border: 3px solid var(--rose);
+    width: 100%;
+
+
+} 
+.traning-description-content-img {
+
 }
 
 
@@ -1147,23 +1584,142 @@ width: 400px;
 
     
 }
-@media  screen  and (max-width:1053px) {
-    #card-traning-content-container{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 20px;
-        justify-items: center;
-        margin: 0 100px;
-     }
-     .carte-section5{
-        display: block;
-        padding-top: 20px;
+
+@media  screen  and (max-width:375px) {
+    .training-content-right-circle-red img{
+        width: 95px;
+        height: 95px;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
     }
-    .carte-section5-img{
-        margin-top: 20px;
+    .training-content-right-circle-bootom img{
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
         margin-bottom: 20px;
-        width: 100%;
+        border: 10px  solid rgba(255, 255, 255, 0.344);
+    
     }
+    .training-content-right-circle-bootom{
+        z-index: 10;
+        top: -170px;
+        position: relative;
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 20px  solid var(--rose);
+       
+    }
+   
+
+    
+}
+
+@media  screen  and (max-width:363px) {
+    .training-content-right-circle-red img{
+        width: 60px;
+        height: 70px;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom:10px;
+    }
+    .training-content-right-circle-bootom img{
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        margin-bottom: 20px;
+        border: 5px  solid rgba(255, 255, 255, 0.344);
+    
+    }
+    .training-content-right-circle-bootom{
+        z-index: 10;
+        top: -40px;
+        position: relative;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 10px  solid var(--rose);
+       
+    }
+    .training-content-rightright-circle-blanc{
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-left: 3px solid var(--blanc);
+        border-bottom: 3px solid var(--blanc);
+    
+    }
+    .training-content-right-circle-red{
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-left: 7px solid var(--rouge);
+        border-bottom: 7px solid var(--rouge);
+    }
+    .btns-training-right a{
+        font-size: 7px;
+    }
+    .btn-training2 a{
+        font-size: 7px;
+
+    }
+   
+
+    
+}
+@media  screen  and (max-width:363px) {
+    .training-content-right-circle-red img{
+        width: 50px;
+        height: 50px;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom:10px;
+    }
+    .training-content-right-circle-bootom img{
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        margin-bottom: 20px;
+        border: 5px  solid rgba(255, 255, 255, 0.344);
+    
+    }
+    
+    .training-content-right-circle-bootom{
+        z-index: 10;
+        top: -20px;
+        position: relative;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 10px  solid var(--rose);
+       
+    }
+    .training-content-rightright-circle-blanc{
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-left: 2px solid var(--blanc);
+        border-bottom: 2px solid var(--blanc);
+    
+    }
+    .training-content-right-circle-red{
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-left: 5px solid var(--rouge);
+        border-bottom: 5px solid var(--rouge);
+    }
+    .btns-training-right a{
+        font-size: 7px;
+    }
+    .btn-training2 a{
+        font-size: 7px;
+
+    }
+   
 
     
 }
