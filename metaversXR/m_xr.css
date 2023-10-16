@@ -1,8 +1,8 @@
 .text_entete {
-    background-image: url("/image/Metaverse\ et\ xr.webp");
-    height: 500px;
+    background-image: url("../image/Metaverse\ et\ xr.webp");
+    height: 600px;
     width: 100%;
-    padding-top: 120px;
+    padding-top: 220px;
     text-align: left;
     color: white;
     font-size: 70px;
@@ -33,7 +33,6 @@
 .blanc {
     background-color: white;
     color: red;
-    border: red solid;
 }
 
 .rede {
@@ -48,7 +47,6 @@
     border-radius: 10%;
     margin-left: 75px;
     margin-bottom: 20px;
-    border: red solid;
 }
 
 .bloc11 {

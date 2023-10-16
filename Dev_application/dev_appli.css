@@ -1,12 +1,15 @@
 .text_entete {
-    background-image: url("/image/developpeur1.png");
+    background-image: url("../image/ACS.jpeg");
     /* position: absolute; */
-    height: 300px;
-    padding-top: 100px;
+    height: 600px;
+    padding-top: 200px;
     padding-left: 50px;
     text-align: left;
     color: white;
     font-size: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
    
 }
 .entete_mariage {
@@ -21,14 +24,12 @@
     margin-left: 20px;
     width: 90%;
     margin-bottom: 50px;
-    /* border: red solid; */
 
 }
 
 .blanc {
     background-color: white;
     color: red;
-    border: red solid;
 }
 
 .rede {

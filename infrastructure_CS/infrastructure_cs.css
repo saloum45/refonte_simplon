@@ -1,5 +1,5 @@
 .text_entete {
-    background-image: url("/image/Cybersécurité1.png");
+    background-image: url("../image/Cybersécurité1.png");
     /* position: absolute; */
     height: 300px;
     padding-top: 100px;
@@ -16,13 +16,11 @@
         margin-left: 20px;
         width: 90%;
         margin-bottom: 50px;
-        border: red solid;
 
 }
 .blanc{
     background-color: white;
     color: red;
-    border: red solid;
 }
 .rede{
     background-color: red;
@@ -35,7 +33,6 @@
     border-radius: 10%;
     margin-left: 75px;
     margin-bottom: 20px;
-    border: red solid;
 }
 .bloc11{
     justify-content: space-between;
