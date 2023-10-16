@@ -97,7 +97,7 @@
 .btn-training2 a:hover{
     color: var(--rouge);
 }
-hr:hover{
+/* hr:hover{
     animation-play-state: paused;
 }
  hr:not(#surligne-botoom) {
@@ -106,9 +106,9 @@ hr:hover{
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
    
-}
+} */
 
-   
+
     
     
 
@@ -168,11 +168,11 @@ hr:hover{
     
 }
 
-.training-content-right-allera hr{
+/* .training-content-right-allera hr{
     width: 6%;
     border: 3px solid var(--rouge);
     margin-bottom: 10px;
-}
+} */
 .surligne-botoom{
     border: 2px solid black;
     position: relative; 
@@ -297,12 +297,12 @@ hr:hover{
 .avantages-content-titre{
     text-align: center;
 }
-.soulignement-content-titre-hr{
+/* .soulignement-content-titre-hr{
     border: 3px solid var(--rouge);
     display: flex;
     margin: 0 auto;
     width: 50%;
-}
+} */
 .card-img-content{
     display: flex;
     place-content: center;
@@ -445,12 +445,12 @@ width: 400px;
     text-decoration: none;
     color: var(--blanc);
 }
-.content-section5-hr{
+/* .content-section5-hr{
     border: 3px solid var(--rouge);
     display: flex;
     margin: 0 auto;
     width: 50%;
-}
+} */
 .text-align-center-section5{
     text-align: center;
     margin-top: 20px ;

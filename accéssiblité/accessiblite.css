@@ -91,14 +91,13 @@ details[open] > summary::after {
 hr:hover{
     animation-play-state: paused;
 }
- hr {
+hr:not(footer hr) {
     animation-name: ref;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-   
-}
 
+}
    
     
     
