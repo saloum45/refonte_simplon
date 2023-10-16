@@ -46,7 +46,7 @@
     gap: 20px;
 }
 .content-section1-blog{
-    height: 130vh;
+    height: 120vh;
 }
 .content-blog-text{
     background-color: var(--rose);
@@ -59,6 +59,7 @@
     border-top: 20px solid var(--rouge);
     position: relative;
     top: -1088px;
+   
 }
 .center-line-blog{
     display: flex;
@@ -73,6 +74,7 @@
 }
 
 .content-red-blog{
+    /* height: 50vh; */
   
 }
 
@@ -325,6 +327,11 @@ hr:hover{
         position: relative;
         top: -1180px;
     }
+    .content-blog-text h1{
+        font-size: 60px;
+        padding-left: 50px;
+        margin-top: 100px;
+    }
     .logo-blog span img{
         width: 80px;
         height: 80px;
@@ -351,6 +358,17 @@ hr:hover{
 
     
 }
+@media  screen  and (max-width:1442px) {
+    .container-cards-blog-card1-time p{
+        /* margin-top: 40px; */
+        margin-left: 0px;
+        margin-top: 30px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+}
+
 @media  screen  and (max-width:769px) {
     .content-blog-text{
         /* background-color: var(--rose);
@@ -365,11 +383,21 @@ hr:hover{
         top: -900px; */
         display: none;
     }
+    .container-cards-blog-card1-time p{
+        /* margin-top: 40px; */
+        margin-left: 0px;
+        margin-top: 30px;
+        font-weight: 900;
+        text-align: center;
+    }
+    .content-section1-blog{
+        height: 65vh;
+    }
     .logo-blog{
         display: none;
     }
-    .ban-img{
-        height: 100px;
+    .ban-img img{
+        height: 400px;
     }
     .container-cards-blog{
         display: grid;
@@ -453,6 +481,17 @@ hr:hover{
         /* border: 10px red; */
        
     }
+    .center-line-blog{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        height: 30px;
+        background-color: var(--rouge);
+        border-radius: 30px;
+        margin-top: 100px;
+         margin-left: 110px;
+        /*margin-right: 100px; */
+    }
    
 
     
@@ -463,6 +502,9 @@ hr:hover{
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
         
+    }
+    .content-section1-blog{
+        height: 80vh;
     }
     .container-cards-blog-card1-img img{
         width: 100%;
@@ -528,6 +570,17 @@ hr:hover{
        border-radius: 50%;
        border-left: 10px solid var(--rouge);
      }
+     .center-line-blog{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        height: 30px;
+        background-color: var(--rouge);
+        border-radius: 30px;
+        margin-top: 100px;
+         margin-left: 50px;
+        /*margin-right: 100px; */
+    }
     
    
 
