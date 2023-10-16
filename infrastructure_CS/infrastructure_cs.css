@@ -1,5 +1,5 @@
 .text_entete {
-    background-image: url("/image/Cybersécurité1.png");
+    background-image: url("../image/Cybersécurité1.png");
     /* position: absolute; */
     height: 300px;
     padding-top: 100px;

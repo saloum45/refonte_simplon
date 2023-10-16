@@ -5,7 +5,13 @@
 #nav {
     background-color: #F3E5E9;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
-    
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.separation{
+    height: 60px;
 }
 
 .navbar-brand img {
