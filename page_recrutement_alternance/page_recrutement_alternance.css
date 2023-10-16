@@ -9,9 +9,16 @@
     height: 600px;
     background-size: cover;
 }
-@media screen and( max-width:780px){
-    .recrutement-alter-row{
-       
+@media screen and (max-width:790px){
+    .recrutement-alter-row-un{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 35%;
     }
-    
+    .recrutement-alter-row-un-col{
+        display: block;
+        width: 100% !important;
+    }
 }
