@@ -1,5 +1,5 @@
 .text_entete {
-    background-image: url("/image/blockchain.jpeg");
+    background-image: url("../image/blockchain.jpeg");
     height: 400px;
     width: 100%;
     padding-top: 120px;
