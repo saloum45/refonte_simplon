@@ -10,7 +10,7 @@
     z-index: 2;
 }
 
-.separation{
+.separation {
     height: 60px;
 }
 
@@ -29,15 +29,13 @@
     margin-bottom: 10px;
     height: 60px;
     background-color: #F3E5E9;
-    text-align: center;
+    margin-left: 20px;
 }
 
 #dropdown-menu li:hover {
     margin-bottom: 10px;
     height: 60px;
     background-color: #CE0034;
-    text-align: center;
-
 }
 
 #dropdown-menu li a:hover {
