@@ -14,6 +14,14 @@
 
 }
 
+/* retouche  */
+.container-section5-two-card2{
+    height: 450px;
+    width: 33%;
+}
+.container-conten5-fondation{
+    background-color: white;
+}
 
 /* *********Banieres******** */
 .content-container-fondation-1-ban1{
@@ -66,12 +74,12 @@
     /* padding-left: 30px; */
     text-align: center;
 }
-.background-rouge-content-fondation hr{
+/* .background-rouge-content-fondation hr{
     border: 5px solid var(--blanc);
     margin: 0 auto;
     width: 50%;
     margin-top: 40px;
-}
+} */
 .background-rouge-content-fondation button{
     background-color: var(--blanc);
     border: none;
@@ -372,7 +380,7 @@
     width: 100%;
     height: 300px;
 }
-hr:hover{
+/* hr:hover{
     animation-play-state: paused;
 }
  hr {
@@ -381,7 +389,7 @@ hr:hover{
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
    
-}
+} */
 
    
     
