@@ -18,4 +18,24 @@
 .formation-alter-banier p{
     font-size: 8px;
 }
+
+}
+@media screen and (max-width:780px){
+    .formatio-atern-row{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5%;
+    width: 100%;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    }
+    .formatio-atern-row-col{
+        width: 100% !important;
+    }
+    .formatio-atern-row-tete{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 25px;
+    }
 }
