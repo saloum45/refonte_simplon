@@ -34,7 +34,7 @@
 .banner .banner-text {
     position: relative;
     color: white;
-    top: -350px;
+    top: -450px;
     padding-left: 50px;
     margin: 0 auto;
     width: 80%;
@@ -45,4 +45,18 @@
     width: 50%;
     margin-top: 40px;
     margin: 0 auto;
+}
+
+
+@media screen and (max-width:767px){
+    .banner .banner-text {
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+        
+    }
+    
+    .banner .banner-text p {
+       width: 90%;
+    }
 }
