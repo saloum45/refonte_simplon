@@ -88,10 +88,10 @@ details[open] > summary::after {
     margin-right: 5px;
     float: right;
 }
-hr:hover{
+/* hr:hover{
     animation-play-state: paused;
 }
- hr {
+ hr:not(hr footer) {
     animation-name: ref;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -111,7 +111,7 @@ hr:hover{
     to {
       transform: translateX(50%);
     }
-}
+} */
  /* debut text-accéssiblité a centrer sur la baniere et dimunuer lea height de la banniere a 391px */
 
  @media  screen  and (max-width:769px) {
@@ -119,9 +119,35 @@ hr:hover{
         position: relative;
         top: -140px;
         margin-left: 180px;
+       
+    }
+    .access-content-form h2{
+        display: none;
     }
    
      
+
+}
+
+@media  screen  and (max-width:1582px) {
+   
+    .access-content-form h2{
+        display: none;
+    }
+   
+     
+
+}
+@media  screen  and (max-width:497px) {
+    .access-content-form h2{
+        display: none;
+    }
+
+}
+@media  screen  and (max-width:788px){
+    .access-content-form h2{
+        display: none;
+    }
 
 }
 @media  screen  and (max-width:391px)  {
@@ -140,6 +166,8 @@ hr:hover{
         top: -140px;
         margin-left: 20px;
     }
-    
+    .access-content-form h2{
+        display: none;
+    }
 }
  /* fin text-accéssiblité a centrer sur la baniere et dimunuer lea height de la banniere a 391px */

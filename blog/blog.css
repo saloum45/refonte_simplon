@@ -368,6 +368,169 @@ hr:hover{
     }
 
 }
+@media  screen  and (max-width:1116px) {
+    .content-blog-text{
+        background-color: transparent;
+        width: 50%;
+        height: 70.4vh;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom: none;
+        border-right:  none ;
+        border-top: none;
+        position: relative;
+        top: -1198px;
+       
+    }
+    /* .container-cards-blog-card1-time p{
+        /* margin-top: 40px;
+        margin-left: 0px;
+        margin-top: 30px;
+        font-weight:700;
+        text-align: center;
+    } */
+    .para-para-description-blog{
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    .date-blog{
+        margin-left: 150px;
+    }
+    .logo-blog{
+        display: none;
+    }
+    .content-blog-text h6{
+        display: none;
+    }
+}
+
+@media  screen  and (max-width:788px) {
+    .content-blog-text{
+        /* background-color: var(--rose);
+        width: 50%;
+        height: 90.4vh;
+        border-top-right-radius: 48%;
+        border-bottom-right-radius: 48%;
+        border-bottom: 20px solid var(--rouge);
+        border-right: 20px solid var(--rouge) ;
+        border-top: 20px solid var(--rouge);
+        position: relative;
+        top: -900px; */
+        display: none;
+    }
+    .container-cards-blog-card1-time p{
+        /* margin-top: 40px; */
+        margin-left: 0px;
+        margin-top: 30px;
+        font-weight: 900;
+        text-align: center;
+    }
+    .content-section1-blog{
+        height: 65vh;
+    }
+    .logo-blog{
+        display: none;
+    }
+    .ban-img img{
+        height: 400px;
+    }
+    .container-cards-blog{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        
+    }
+    .container-cards-blog-card1-img img{
+        width: 100%;
+        height: 30vh;
+    }
+    .container-cards-blog-card1{
+        background-color: var(--rose);
+        padding-bottom: 50px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+       /* margin-left: 20px ;
+       margin-right: 20px; */
+        box-shadow: 1px 1px 5px rgb(117, 117, 117);
+    }
+    .container-cards-blog-temoignages {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 20px;
+        gap: 20px
+        ;
+    
+    }
+    .container-cards-blog-temoignage-card1-img img{
+        width: 100%;
+        height: 190px;
+        float: right;
+       border-radius: 50%;
+       border-left: 10px solid var(--rouge);
+     }
+     .container-cards-blog-temoignage-card1{
+       
+         background-color: var(--blanc);
+         padding-bottom: 50px;
+         width: 43vw;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-top: 10px;
+         box-shadow: 1px 1px 5px rgb(117, 117, 117);
+     }
+     .container-cards-blog-temoignage-card1-img img{
+        width: 40%;
+        height: 125px;
+        float: right;
+       border-radius: 50%;
+       border-left: 10px solid var(--rouge);
+     }
+     .date-blog{
+        margin-left: 140px;
+    }
+    /* #logo-blog{
+        width: 160px;
+        height: 170px;
+        background-color: var(--rose);
+        position: relative;
+        top: -900px !important;
+        margin-left: 650px;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        /* border: 10px red; 
+       
+    } */
+    
+
+    #logo-blog{
+        width: 160px;
+        height: 170px;
+        background-color: var(--rose);
+        position: relative;
+        top: -900px !important;
+        margin-left: 650px;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        /* border: 10px red; */
+       
+    }
+    .center-line-blog{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        height: 30px;
+        background-color: var(--rouge);
+        border-radius: 30px;
+        margin-top: 100px;
+         margin-left: 110px;
+        /*margin-right: 100px; */
+    }
+   
+
+    
+}
 
 @media  screen  and (max-width:769px) {
     .content-blog-text{
@@ -492,6 +655,96 @@ hr:hover{
          margin-left: 110px;
         /*margin-right: 100px; */
     }
+   
+
+    
+}
+@media  screen  and (max-width:497px) {
+    .container-cards-blog{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        
+    }
+    .content-section1-blog{
+        height: 80vh;
+    }
+    .container-cards-blog-card1-img img{
+        width: 100%;
+        height: 36vh;
+    }
+    .container-cards-blog-card1{
+        background-color: var(--rose);
+        padding-bottom: 50px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+       /* margin-left: 20px ;
+       margin-right: 20px; */
+        box-shadow: 1px 1px 5px rgb(117, 117, 117);
+    }
+    .container-cards-blog-card1-time p{
+        /* margin-top: 40px; */
+        margin-left: 0px;
+        margin-top: 30px;
+        font-weight: 900;
+        text-align: center;
+    }
+    .container-cards-blog-temoignages {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 20px;
+        gap: 20px
+        ;
+    
+    }
+    .container-cards-blog-temoignage-card1-img img{
+        width: 100%;
+        height: 190px;
+        float: right;
+       border-radius: 50%;
+       border-left: 10px solid var(--rouge);
+     }
+     .container-cards-blog-temoignage-card1{
+       
+         background-color: var(--blanc);
+         padding-bottom: 50px;
+         width: 100%;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-top: 10px;
+         box-shadow: 1px 1px 5px rgb(117, 117, 117);
+     }
+     .container-cards-blog-temoignage-card1-img img{
+        width: 100%;
+        height: 125px;
+        float: right;
+       border-radius: 50%;
+       border-left: 10px solid var(--rouge);
+     }
+     .date-blog{
+        margin-left: 140px;
+    }
+    .container-cards-blog-temoignage-card1-img img{
+        width: 40%;
+        height: 125px;
+        float: right;
+       border-radius: 50%;
+       border-left: 10px solid var(--rouge);
+     }
+     .center-line-blog{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        height: 30px;
+        background-color: var(--rouge);
+        border-radius: 30px;
+        margin-top: 100px;
+         margin-left: 50px;
+        /*margin-right: 100px; */
+    }
+    
    
 
     

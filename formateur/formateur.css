@@ -97,16 +97,13 @@
 .btn-training2 a:hover{
     color: var(--rouge);
 }
-hr:hover{
-    animation-play-state: paused;
-}
- hr:not(#surligne-botoom) {
-    animation-name: ref;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-   
-}
+/* 
+ */
+ /* *******Z INDEX********** */
+
+ .content-container-fondation-1-ban2{
+    z-index: 0 !important;
+ }
 
    
     
@@ -1407,6 +1404,7 @@ width: 400px;
     
 }
 /* ici */
+
 @media screen and (max-width:328px) {
     .modalites-section4-training{
         margin-top: 90px;
