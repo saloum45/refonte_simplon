@@ -42,6 +42,12 @@
     height: 10vh;
     
 }
+.container-cards-blog {
+    gap: 20px;
+}
+.content-section1-blog{
+    height: 130vh;
+}
 .content-blog-text{
     background-color: var(--rose);
     width: 50%;
@@ -52,7 +58,7 @@
     border-right: 20px solid var(--rouge) ;
     border-top: 20px solid var(--rouge);
     position: relative;
-    top: -970px;
+    top: -1088px;
 }
 .center-line-blog{
     display: flex;
@@ -67,26 +73,9 @@
 }
 
 .content-red-blog{
-    margin: 0;
-    padding: 0;
-    border: 2px solid blue;
+  
 }
-/* .content-red-blog{
-    border-bottom: 20px solid var(--rouge);
-    width: 50%;
-    border-top: 20px solid var(--rouge);
-    border-top-right-radius: 45%;
-    border-bottom-right-radius: 45%;
-    border-right: 20px solid var(--rouge) ;
-    background-color: var(--rose);
-} */
-/* .content-blanc-blog{
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black ;
 
-} */
 .content-blog-text h1{
     font-size: 70px;
     padding-left: 50px;
@@ -131,7 +120,7 @@
     height: 170px;
     background-color: var(--rose);
     position: relative;
-    top: -980px;
+    top: -1082px;
     margin-left: 650px;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -177,6 +166,8 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     row-gap: 20px;
+    gap: 20px
+    ;
 
 }
 .container-cards-blog-temoignage-card1-img img{
@@ -259,4 +250,286 @@
     border: 3px solid var(--rouge);
     margin: 0 auto;
     margin-bottom: 40px;
+}
+hr:hover{
+    animation-play-state: paused;
+}
+ hr:not(footer hr) {
+    animation-name: ref;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+   
+}
+
+   
+    
+    
+
+@keyframes ref{
+    from {
+      transform: translateX(0%);
+    }
+  
+    to {
+      transform: translateX(50%);
+    }
+}
+.container-cards-blog-card1-img img{
+    
+    transition: 1s ease-in-out;
+    transition-property: scale rotate;
+   
+}
+.container-cards-blog-card1-img img:hover {
+    rotate: 10deg;
+    scale: 1.3;
+
+}
+.container-cards-blog-temoignage-card1-img img:hover{
+    transition: 1s ease-in-out;
+    transition-property: scale rotate;
+    rotate: 10deg;
+    scale: 1.1;
+
+}
+.container-cards-blog-temoignage-card1 :hover{
+    transition: 1s ease-in-out;
+    transition-property: scale rotate;
+    rotate: 10deg;
+    scale: 1.1;
+
+}
+.container-cards-blog-temoignage-card1-img:hover{
+    transition: 1s ease-in-out;
+    transition-property: scale rotate;
+    rotate: 10deg;
+    scale: 1.1;
+
+}
+
+
+
+
+/* Medias queries */
+@media  screen  and (max-width:1442px) {
+    .content-blog-text{
+        background-color: var(--rose);
+        width: 60%;
+        height: 90.4vh;
+        border-top-right-radius: 48%;
+        border-bottom-right-radius: 48%;
+        border-bottom: 20px solid var(--rouge);
+        border-right: 20px solid var(--rouge) ;
+        border-top: 20px solid var(--rouge);
+        position: relative;
+        top: -1180px;
+    }
+    .logo-blog span img{
+        width: 80px;
+        height: 80px;
+        background-color: var(--rose);
+        display: flex;
+        margin: 60px auto;
+        background-color: var(--blanc);
+        border-radius: 50%;
+    }
+    #logo-blog{
+        width: 160px;
+        height: 170px;
+        background-color: var(--rose);
+        position: relative;
+        top: -1170px !important;
+        margin-left: 650px;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        /* border: 10px red; */
+       
+    }
+    
+   
+
+    
+}
+@media  screen  and (max-width:769px) {
+    .content-blog-text{
+        /* background-color: var(--rose);
+        width: 50%;
+        height: 90.4vh;
+        border-top-right-radius: 48%;
+        border-bottom-right-radius: 48%;
+        border-bottom: 20px solid var(--rouge);
+        border-right: 20px solid var(--rouge) ;
+        border-top: 20px solid var(--rouge);
+        position: relative;
+        top: -900px; */
+        display: none;
+    }
+    .logo-blog{
+        display: none;
+    }
+    .ban-img{
+        height: 100px;
+    }
+    .container-cards-blog{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        
+    }
+    .container-cards-blog-card1-img img{
+        width: 100%;
+        height: 30vh;
+    }
+    .container-cards-blog-card1{
+        background-color: var(--rose);
+        padding-bottom: 50px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+       /* margin-left: 20px ;
+       margin-right: 20px; */
+        box-shadow: 1px 1px 5px rgb(117, 117, 117);
+    }
+    .container-cards-blog-temoignages {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 20px;
+        gap: 20px
+        ;
+    
+    }
+    .container-cards-blog-temoignage-card1-img img{
+        width: 100%;
+        height: 190px;
+        float: right;
+       border-radius: 50%;
+       border-left: 10px solid var(--rouge);
+     }
+     .container-cards-blog-temoignage-card1{
+       
+         background-color: var(--blanc);
+         padding-bottom: 50px;
+         width: 43vw;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-top: 10px;
+         box-shadow: 1px 1px 5px rgb(117, 117, 117);
+     }
+     .container-cards-blog-temoignage-card1-img img{
+        width: 40%;
+        height: 125px;
+        float: right;
+       border-radius: 50%;
+       border-left: 10px solid var(--rouge);
+     }
+     .date-blog{
+        margin-left: 140px;
+    }
+    /* #logo-blog{
+        width: 160px;
+        height: 170px;
+        background-color: var(--rose);
+        position: relative;
+        top: -900px !important;
+        margin-left: 650px;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        /* border: 10px red; 
+       
+    } */
+    
+
+    #logo-blog{
+        width: 160px;
+        height: 170px;
+        background-color: var(--rose);
+        position: relative;
+        top: -900px !important;
+        margin-left: 650px;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        /* border: 10px red; */
+       
+    }
+   
+
+    
+}
+@media  screen  and (max-width:392px) {
+    .container-cards-blog{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        
+    }
+    .container-cards-blog-card1-img img{
+        width: 100%;
+        height: 36vh;
+    }
+    .container-cards-blog-card1{
+        background-color: var(--rose);
+        padding-bottom: 50px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+       /* margin-left: 20px ;
+       margin-right: 20px; */
+        box-shadow: 1px 1px 5px rgb(117, 117, 117);
+    }
+    .container-cards-blog-card1-time p{
+        /* margin-top: 40px; */
+        margin-left: 0px;
+        margin-top: 30px;
+        font-weight: 900;
+        text-align: center;
+    }
+    .container-cards-blog-temoignages {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 20px;
+        gap: 20px
+        ;
+    
+    }
+    .container-cards-blog-temoignage-card1-img img{
+        width: 100%;
+        height: 190px;
+        float: right;
+       border-radius: 50%;
+       border-left: 10px solid var(--rouge);
+     }
+     .container-cards-blog-temoignage-card1{
+       
+         background-color: var(--blanc);
+         padding-bottom: 50px;
+         width: 100%;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-top: 10px;
+         box-shadow: 1px 1px 5px rgb(117, 117, 117);
+     }
+     .container-cards-blog-temoignage-card1-img img{
+        width: 100%;
+        height: 125px;
+        float: right;
+       border-radius: 50%;
+       border-left: 10px solid var(--rouge);
+     }
+     .date-blog{
+        margin-left: 140px;
+    }
+    .container-cards-blog-temoignage-card1-img img{
+        width: 40%;
+        height: 125px;
+        float: right;
+       border-radius: 50%;
+       border-left: 10px solid var(--rouge);
+     }
+    
+   
+
+    
 }
