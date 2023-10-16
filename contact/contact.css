@@ -42,7 +42,7 @@
 hr:hover{
     animation-play-state: paused;
 }
- hr {
+ hr:not(footer hr){
     animation-name: ref;
     animation-duration: 1s;
     animation-iteration-count: infinite;
