@@ -25,14 +25,26 @@ let fabriques = [
     }
 ];
 
-let champs=document.getElementById('champs');
-let go=document.getElementById('go');
+let champs = document.getElementById('champs');
+let go = document.getElementById('go');
 
-go.addEventListener('click',()=>{
+go.addEventListener('click', () => {
     // alert('hello')
-    fabriques.forEach(element=>{
-        if(element.titre.toLowerCase().includes(champs.value.toLowerCase())){
-            alert(element.adresse)
+    fabriques.forEach(element => {
+        if (element.titre.toLowerCase().includes(champs.value.toLowerCase())) {
+            // alert(element.adresse)
+            Swal.fire({
+                icon: 'success',
+                title: element.titre,
+                text: "Adresse : "+element.adresse
+            })
+            // return;
+            // } else if(element.titre.toLowerCase().includes(champs.value.toLowerCase())==false){
+            //     Swal.fire({
+            //         icon: 'error',
+            //         title: 'Oops...',
+            //         text: 'recherche non trouvée'
+            //     })
         }
     })
 })
